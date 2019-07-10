@@ -1,7 +1,7 @@
 ### Project 3: Implementation of the Stochastic Gradient Descent Optimizer Algorithm
 <p align="center">
     <img width="600" height="300"
-     src="https://www.bogotobogo.com/python/scikit-learn/images/Batch-vs-Stochastic-Gradient-Descent/stochastic-vs-batch-gradient-descent.png">
+     src="http://rasbt.github.io/mlxtend/user_guide/general_concepts/gradient-optimization_files/ball.png">
 </p>
 
 Description:
