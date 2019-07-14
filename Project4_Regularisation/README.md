@@ -17,7 +17,7 @@ This mini project contains source code that demonstrates the effect
   and L2 regularization techniques. It was observed that the 
   implementation of regularisation does 
   infact yield higher model accuracy towards unseen test data, with
-   L@ giving better performance over L1. 
+   L2 giving better performance over L1. 
 
 Technology Used:
 
