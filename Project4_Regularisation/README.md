@@ -13,7 +13,7 @@ This mini project contains source code that demonstrates the effect
   Descent has been trained on the animals image dataset used in 
   [Project 1](https://github.com/nombreinvicto/DeepLearningCV/tree/master/Project1_knn)
   to particularly show the difference in the effects of the model 
-  accuracy when using [L1](https://en.wikipedia.org/wiki/Regularization_(mathematics) 
+  accuracy when using [L1](https://en.wikipedia.org/wiki/Regularization_(mathematics)) 
   and L2 regularization techniques. It was observed that the 
   implementation of regularisation does 
   infact yield higher model accuracy towards unseen test data, with
