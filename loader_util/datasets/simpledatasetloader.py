@@ -14,7 +14,7 @@ class SimpleDatasetLoader:
         data = []
         labels = []
 
-        # loop over the inout images
+        # loop over the input images
         for i, imagePath in enumerate(imagePaths):
             # load the image and extract the class label assuming
             # path has /path/to/dataset/{class}/{image}.jpg format
