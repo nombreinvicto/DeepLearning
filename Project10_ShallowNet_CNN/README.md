@@ -15,7 +15,7 @@ This repository contains source code, implementing a Python coded
      differentiate between 3 classes of animals. The architecture and the
       dataset are courtesy of [Dr. Adrian Rosebrock](https://www.pyimagesearch.com/about/) 
       from PyImageSearch. The associated Jupyter file shows a cursory
-       implementation of the model training, testing and prediction. The
+       implementation of the model training, testing and prediction.
 
 Technology Used:
 
