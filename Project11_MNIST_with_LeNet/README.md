@@ -1,4 +1,4 @@
-### Project 10- ShallowNet Performance on Animals and CIFAR-10 Datasets
+### Project 11- LeNet Performance on MNIST dataset
 
 <p align="center">
     <img width="800" height="400"
