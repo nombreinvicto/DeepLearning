@@ -1,4 +1,4 @@
-### Project 13- MinVGGNet Performance on Cifar-10 dataset
+### Project 13- Training Monitor for Under/Over-fit Detection
 
 <p align="center">
     <img width="800" height="400"
