@@ -1,4 +1,4 @@
-### Project 12- MinVGGNet Performance on Cifar-10 dataset
+### Project 13- MinVGGNet Performance on Cifar-10 dataset
 
 <p align="center">
     <img width="800" height="400"
