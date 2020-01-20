@@ -30,7 +30,7 @@ A sample of the camera capture outputs for smiling and non smiling faces
 </p>
         
        
-The dataset and the main template for the code are courtesy of ![Dr. Adrian
+The dataset and the main template for the code are courtesy of [Dr. Adrian
  Rosebrock](https://www.linkedin.com/in/adrian-rosebrock-59b8732a/).
        
     
