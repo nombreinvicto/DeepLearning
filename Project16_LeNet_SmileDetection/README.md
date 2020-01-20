@@ -1,4 +1,4 @@
-### Project 15- Pretrained Model Implementation 
+### Project 16- Smile Detection using LeNet and HAAR Cascade Detector 
 
 <p align="center">
     <img width="800" height="400"
@@ -13,7 +13,13 @@ This repository contains 2 Python scripts that serve as source codes for:
 The implementation of a training script that trains a LeNet architecture
  Convoluted Neural Network model on the Smiles dataset that contains 13651
   images of human faces categorised into either smiling or non-smiling faces
-   and 
+  . The training process learning curves are shown below. A validation smile
+   detection accuracy of more than 80% was obtained.
+   
+<p align="center">
+    <img width="600" height="300"
+     src="./train_plot.png">
+</p>
    
    (ii) The implementation of a detector script that grabs frames in
     realtime from a web-cam and detects as to whether the face of the person
