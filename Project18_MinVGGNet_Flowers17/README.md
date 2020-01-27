@@ -13,7 +13,7 @@ This repository contains 2 Jupyter files that serve as source codes
    categories of flower species:
    
    <p align="center">
-    <img width="600" height="300"
+    <img width="500" height="400"
      src="./flowers17.JPG">
 </p>
 
@@ -36,7 +36,7 @@ Subsequently, data augmentation routine was employed on the dataset to
     the training curve on the augmented dataset below:
     
  <p align="center">
-    <img width="400" height="200"
+    <img width="600" height="300"
      src="./augmented.JPG">
 </p>
 
