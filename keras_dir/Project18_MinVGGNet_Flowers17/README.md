@@ -14,7 +14,7 @@ This repository contains 2 Jupyter files that serve as source codes
    
    <p align="center">
     <img width="500" height="400"
-     src="./flowers17.JPG">
+     src="flowers17.JPG">
 </p>
 
 Owing to the lower number of training samples per class of flower species, a
@@ -26,7 +26,7 @@ Owing to the lower number of training samples per class of flower species, a
 
 <p align="center">
     <img width="600" height="300"
-     src="./simple.JPG">
+     src="simple.JPG">
 </p>
 
 Subsequently, data augmentation routine was employed on the dataset to
@@ -37,7 +37,7 @@ Subsequently, data augmentation routine was employed on the dataset to
     
  <p align="center">
     <img width="600" height="300"
-     src="./augmented.JPG">
+     src="augmented.JPG">
 </p>
 
 Technology Used:

@@ -1,7 +1,7 @@
 ### Project 1: KNN Image Classification on Augmented Animals Dataset
 
 <p align="center">
-  <img width="300" height="150" src="./dog_cat.JPG">
+  <img width="300" height="150" src="dog_cat.JPG">
 </p>
 
 Description:
@@ -17,7 +17,7 @@ depicted in the following picture.
 
 
 <p align="center">
-  <img width="300" height="150" src="./result.JPG">
+  <img width="300" height="150" src="result.JPG">
 </p>
 
 It can be observed that an average precision score of around 57% 

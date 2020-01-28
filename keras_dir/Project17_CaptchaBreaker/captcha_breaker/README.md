@@ -20,7 +20,7 @@ This repository contains Python coded source codes for:
    
 <p align="center">
     <img width="600" height="300"
-     src="./trainPlot.JPG">
+     src="trainPlot.JPG">
 </p>
    
   

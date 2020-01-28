@@ -18,7 +18,7 @@ The implementation of a training script that trains a LeNet architecture
    
 <p align="center">
     <img width="600" height="300"
-     src="./train_plot.png">
+     src="train_plot.png">
 </p>
    
    (ii) The implementation of a detector script that grabs frames in
@@ -32,7 +32,7 @@ A sample of the camera capture outputs for smiling and non smiling faces
  
  <p align="center">
     <img width="400" height="200"
-     src="./smileNotSmile.JPG">
+     src="smileNotSmile.JPG">
 </p>
         
        
