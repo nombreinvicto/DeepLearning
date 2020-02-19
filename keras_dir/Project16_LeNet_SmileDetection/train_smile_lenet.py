@@ -35,9 +35,13 @@ for imagePath in sorted(list(paths.list_images(args['dataset']))):
     # load the image and then preprocess it
     image = cv2.imread(imagePath)
     image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    print("size1: ", image.size)
     image = imutils.resize(image, width=28)
+    print("size2: ", image.size)
     image = img_to_array(image)
+    print("size3: ", image.size)
     data.append(image)
+    print("=" * 40)
 
     # extract class labels from iameg path and update label list
     label = imagePath.split(os.path.sep)[-3]

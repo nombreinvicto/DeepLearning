@@ -9,7 +9,7 @@ class HDF5DatasetWriter:
         if os.path.exists(outputPath):
             raise ValueError("The supplied outputPath already exists and "
                              "cannot be overwritten. Manually delete the "
-                             "file before continuing.")
+                             "file before continuing.", outputPath)
 
         # open the HDF5 database for writing and create 2 datasets: one to
         # sstore the images/features and the other to store the class labels
@@ -22,3 +22,27 @@ class HDF5DatasetWriter:
         self.bufSize = bufSize
         self.buffer = {'data': [], 'labels': []}
         self.idx = 0
+
+    # method to add data to BUFFER
+    def add(self, rows, labels):
+        # add the rows and labels to the buffer
+        self.buffer["data"].extend(rows)
+        self.buffer["labels"].extend(labels)
+
+        # check to see if buffer needs to be flashed to disk
+        if len(self.buffer["data"]) >= self.bufSize:
+            self.flush()
+        # method writes the buffers to disk then resets buffer
+
+    def flush(self):
+        i = self.idx + len(self.buffer["data"])
+        self.data[self.idx:i] = self.buffer['data']
+        self.labels[self.idx:i] = self.buffer['labels']
+        self.idx = i
+        self.buffer = {'data': [], 'labels': []}
+
+    def storeClassLabels(self, classLabels):
+        # create a dataset to store the actual class label names
+        dt = h5py.special_dtype
+
+
