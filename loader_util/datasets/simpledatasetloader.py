@@ -18,6 +18,7 @@ class SimpleDatasetLoader:
         for i, imagePath in enumerate(imagePaths):
             # load the image and extract the class label assuming
             # path has /path/to/dataset/{class}/{image}.jpg format
+            #print(imagePath)
             image = cv2.imread(imagePath)
             label = imagePath.split(os.path.sep)[-2]
 
