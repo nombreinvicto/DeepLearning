@@ -9,7 +9,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.axes._axes as axes
-import cv2
+from cv2 import cv2
 import os
 
 sns.set()
@@ -30,7 +30,7 @@ imagePaths = list(paths.list_images(args['dataset']))
 # imagePaths = imagePaths[idxs]
 # %%
 # intialise the preprocessor
-sp = AspectAwarePreprocessor(64, 64)
+sp = AspectAwarePreprocessor(224, 224)
 ip = ImageToArrayPreprocessor()
 
 # load dataset and then scale
@@ -40,7 +40,7 @@ data = data.astype('float') / 255.0
 # %%
 # load pretrained model
 
-model = load_model('best_model_weights2.hdf5')
+model = load_model('cellDetectTransferLearningVGG16.hdf5')
 preds = model.predict(data).argmax(axis=1)
 # %%
 preds

@@ -20,6 +20,7 @@ class SimpleDatasetLoader:
             # path has /path/to/dataset/{class}/{image}.jpg format
             #print(imagePath)
             image = cv2.imread(imagePath)
+            image = image.astype('float')
             label = imagePath.split(os.path.sep)[-2]
 
             # check to see if preprocessors are not None. Then loop
