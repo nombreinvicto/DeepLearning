@@ -3,7 +3,9 @@ import random
 import hashlib
 
 # %%
-dir = r"C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\DeepLearning\DeepLearning-DL4CV\ImageDatasets\cellImages4\MG 63"
+dir = r"C:\Users\mhasa\Google Drive\Tutorial " \
+      r"Corner\PYTH\DeepLearning\DeepLearning-DL4CV\ImageDatasets" \
+      r"\cellImages4\MG63"
 dirNamePad = dir + r"\\"
 
 for i, oldFileName in enumerate(os.listdir(dir)):
