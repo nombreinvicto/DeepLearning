@@ -43,6 +43,7 @@ class TrainingMonitor(BaseLogger):
             l = self.H.get(k, [])
             l.append(float(v))
             self.H[k] = l
+
         # check to see if the train history shud be serialised to file
         if self.jsonPath:
             f = open(self.jsonPath, "w")
@@ -58,8 +59,8 @@ class TrainingMonitor(BaseLogger):
             plt.figure()
             plt.plot(N, self.H["loss"], label="train_loss")
             plt.plot(N, self.H["val_loss"], label="val_loss")
-            plt.plot(N, self.H["acc"], label="train_acc")
-            plt.plot(N, self.H["val_acc"], label="val_acc")
+            plt.plot(N, self.H["accuracy"], label="train_acc")
+            plt.plot(N, self.H["val_accuracy"], label="val_acc")
             plt.title("Training Loss and Accuracy [Epoch {}]".format(
                 len(self.H["loss"])))
             plt.xlabel("Epoch #")
