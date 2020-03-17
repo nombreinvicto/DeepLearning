@@ -27,16 +27,11 @@ The training curves above show presence of significant model overfitting on
  the training data but it is an unavoidable reality of such a deep model on
   the cifar10 dataset.
 
-A sample of the camera capture outputs for smiling and non smiling faces
- is shown below:
-
-
 The main template for the code are courtesy of [Dr. Adrian
  Rosebrock](https://www.pyimagesearch.com/).
 
 
 Technology Used:
-
 * Python 3
 
 Libraries Used:
