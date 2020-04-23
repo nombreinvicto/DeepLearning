@@ -1,6 +1,12 @@
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import BatchNormalization, Conv2D, MaxPool2D, \
-    Activation, Flatten, Dropout, Dense
+from tensorflow.keras.layers import \
+    BatchNormalization, \
+    Conv2D, \
+    MaxPool2D, \
+    Activation, \
+    Flatten, \
+    Dropout, \
+    Dense
 from tensorflow.keras.regularizers import l2
 from tensorflow.keras import backend as K
 

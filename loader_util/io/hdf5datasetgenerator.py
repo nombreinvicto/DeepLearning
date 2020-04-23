@@ -4,8 +4,12 @@ import h5py
 
 
 class HDF5DatasetGenerator:
-    def __init__(self, dbPath, batchSize, preprocessors=None, aug=None,
-                 binarize=True, classes=2):
+    def __init__(self, dbPath,
+                 batchSize,
+                 preprocessors=None,
+                 aug=None,
+                 binarize=True,
+                 classes=2):
         self.batchSize = batchSize
         self.preprocessors = preprocessors
         self.aug = aug

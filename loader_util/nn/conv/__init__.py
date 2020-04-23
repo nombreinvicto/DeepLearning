@@ -6,3 +6,4 @@ from .fcheadnet import FCHeadNet
 from .lenet_batchnorm import LeNetBatchNorm
 from .alexnet import AlexNet
 from .minigooglenet import MiniGoogleNet
+from .deepergooglenet import DeeperGoogleNet
