@@ -45,8 +45,9 @@ class HDF5DatasetWriter:
         # create a dataset to store the actual class label names
         dt = h5py.string_dtype(encoding='ascii')
 
-        labelSet = self.db.create_dataset("label_names", shape=(len(
-            classLabels),), dtype=dt)
+        labelSet = self.db.create_dataset("label_names",
+                                          shape=(len(classLabels),),
+                                          dtype=dt)
         labelSet[:] = classLabels
 
     def close(self):

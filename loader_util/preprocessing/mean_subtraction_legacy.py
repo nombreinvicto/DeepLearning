@@ -6,6 +6,7 @@ class MeanSubtractionPreProcessor:
     @staticmethod
     def preprocess(image: np.ndarray):
         B, G, R = cv2.split(image)
+        epsillon = 1e-4
 
         # calculate means
         B_mean = B.mean()
@@ -17,8 +18,8 @@ class MeanSubtractionPreProcessor:
         G_std = G.std()
         R_std = R.std()
 
-        B = (B - B_mean) / B_std
-        G = (G - G_mean) / G_std
-        R = (R - R_mean) / R_std
+        B = (B - B_mean) / (B_std + epsillon)
+        G = (G - G_mean) / (G_std + epsillon)
+        R = (R - R_mean) / (R_std + epsillon)
 
         return cv2.merge((B, G, R))
