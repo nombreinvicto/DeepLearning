@@ -1,7 +1,8 @@
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from loader_util.io import HDF5DatasetWriter
-from loader_util.preprocessing import AspectAwarePreprocessor, MeanSubtractionPreProcessor
+from loader_util.preprocessing import AspectAwarePreprocessor, \
+    MeanSubtractionPreProcessor
 from imutils import paths
 import numpy as np
 import progressbar
@@ -11,13 +12,13 @@ import os
 
 #imagePath = r"C:\Users\mhasa\Google Drive\Tutorial
 # Corner\PYTH\DeepLearning\DeepLearning-DL4CV\ImageDatasets\Unique3DClusters"
-imagePath = r"C:\Users\mhasa\Desktop\CAD_10Class"
+imagePath = r"C:\Users\mhasa\Desktop\MOKN_6Cluster"
 
 # grab paths to training images and then extract train class labels and encode
 trainPaths = list(paths.list_images(imagePath))
 
-# for 4 class
-n_class = 4
+# for class
+n_class = 15
 #trainPaths = trainPaths[0: n_class]
 
 trainLabels = [p.split(os.path.sep)[-2] for p in trainPaths]
@@ -28,15 +29,20 @@ trainLabels = le.fit_transform(trainLabels)
 #%%
 
 # perform stratified sampling from train set to construct validation set
-split = train_test_split(trainPaths, trainLabels, test_size=0.3,
-                         stratify=trainLabels, random_state=42)
+split = train_test_split(trainPaths,
+                         trainLabels,
+                         test_size=0.3,
+                         stratify=trainLabels,
+                         random_state=42)
 trainpaths, testpaths, trainLabels, testLabels = split
 #%%
 
 # construct list pair
 datasets = [
-    ('train', trainpaths, trainLabels, f"{imagePath}//train_cad_20class.hdf5"),
-    ('val', testpaths, testLabels, f"{imagePath}//validate_cad_20class.hdf5")
+    ('train', trainpaths, trainLabels,
+     f"{imagePath}//train_mokn_6class.hdf5"),
+    ('val', testpaths, testLabels,
+     f"{imagePath}//validate_mokn_6class.hdf5")
 ]
 #%%
 
