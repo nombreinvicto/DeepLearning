@@ -12,20 +12,19 @@ import os
 
 #imagePath = r"C:\Users\mhasa\Google Drive\Tutorial
 # Corner\PYTH\DeepLearning\DeepLearning-DL4CV\ImageDatasets\Unique3DClusters"
-imagePath = r"C:\Users\mhasa\Desktop\MOKN_6Cluster"
+imagePath = r"C:\Users\mhasa\Desktop\CAD_Repo_Vanilla"
+dbPath = r"E://"
 
 # grab paths to training images and then extract train class labels and encode
 trainPaths = list(paths.list_images(imagePath))
-
-# for class
-n_class = 15
-#trainPaths = trainPaths[0: n_class]
 
 trainLabels = [p.split(os.path.sep)[-2] for p in trainPaths]
 print("Unique Classes: ", len(np.unique(trainLabels)))
 #%%
 le = LabelEncoder()
 trainLabels = le.fit_transform(trainLabels)
+#%%
+class_labels = np.array(le.classes_)
 #%%
 
 # perform stratified sampling from train set to construct validation set
@@ -40,9 +39,9 @@ trainpaths, testpaths, trainLabels, testLabels = split
 # construct list pair
 datasets = [
     ('train', trainpaths, trainLabels,
-     f"{imagePath}//train_mokn_6class.hdf5"),
+     f"{dbPath}//train_cad_38class.hdf5"),
     ('val', testpaths, testLabels,
-     f"{imagePath}//validate_mokn_6class.hdf5")
+     f"{dbPath}//validate_cad_38class.hdf5")
 ]
 #%%
 
@@ -72,7 +71,11 @@ for dataType, paths, labels, output in datasets:
         writer.add([image], [label])
         pbar.update(i)
 
+    # store class labels before exiting
+    writer.storeClassLabels(class_labels)
+
     # close the writer
     pbar.finish()
     writer.close()
 
+#%%
