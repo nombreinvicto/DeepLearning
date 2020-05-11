@@ -70,3 +70,5 @@ class TrainingMonitor(BaseLogger):
             # save the figure
             plt.savefig(self.figPath)
             plt.close()
+
+

@@ -7,3 +7,4 @@ from .lenet_batchnorm import LeNetBatchNorm
 from .alexnet import AlexNet
 from .minigooglenet import MiniGoogleNet
 from .deepergooglenet import DeeperGoogleNet
+from .resnet import ResNet
