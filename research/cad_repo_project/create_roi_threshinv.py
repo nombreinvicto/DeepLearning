@@ -27,7 +27,7 @@ for path in imagePaths:
     image_name = path.split(os.sep)[-1]
 
     # do inverse thresholding
-    th, dst_bin = cv2.threshold(img,
+    th, dst_bin = cv2.threshold(img.copy(),
                                 thresh=thresh,
                                 maxval=max_val,
                                 type=cv2.THRESH_BINARY_INV)
@@ -50,4 +50,4 @@ for path in imagePaths:
         resizedROI = aap.preprocess(roi)
 
         # save the ROI
-        cv2.imwrite(f"{destination_folder}//{image_name}", resizedROI)
+        cv2.imwrite(f"{destination_folder}//{image_name}", roi)
