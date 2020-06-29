@@ -13,7 +13,7 @@ import os
 
 # imagePath = r"C:\Users\mhasa\Google Drive\Tutorial
 # Corner\PYTH\DeepLearning\DeepLearning-DL4CV\ImageDatasets\Unique3DClusters"
-imagePath = r"C:\Users\mhasa\Desktop\GAN_threshinClean1"
+imagePath = r"C:\Users\mhasa\Desktop\NLP_choice"
 dbPath = r"C:\Users\mhasa\Desktop"
 
 # grab paths to training images and then extract train class labels and encode
@@ -31,7 +31,7 @@ class_labels = np.array(le.classes_)
 # perform stratified sampling from train set to construct validation set
 split = train_test_split(trainPaths,
                          trainLabels,
-                         test_size=0.3,
+                         test_size=0.1,
                          stratify=trainLabels,
                          random_state=42)
 trainpaths, testpaths, trainlabels, testlabels = split
@@ -40,9 +40,11 @@ trainpaths, testpaths, trainlabels, testlabels = split
 # construct list pair
 datasets = [
     ('train', trainpaths, trainlabels,
-     f"{dbPath}//train_cad_38class.hdf5"),
+     f"{dbPath}//train_gan_threshinv_5classNLP_28px1px_pristine"
+     f".hdf5"),
     ('val', testpaths, testlabels,
-     f"{dbPath}//validate_cad_38class.hdf5")
+     f"{dbPath}//validate_gan_threshinv_5classNLP_28px1px_pristine"
+     f".hdf5")
 ]
 # %%
 
@@ -80,7 +82,8 @@ for dataType, paths, labels, output in datasets:
         # image = mp.preprocess(image)
         image = image.astype('float32')
         image = np.expand_dims(image, axis=-1)
-        image = image / 255.0
+
+        #image = image / 255.0 # dont use for gan sets
 
         # add the image and label to the HDF5 dataset
         writer.add([image], [label])
