@@ -98,3 +98,23 @@ tightening force
 radial clamping
 headstock holder
 tailstock holder
+self centering
+fast chucking
+machine centering
+secure clamping
+workholding
+chuck key
+holding jaw
+self centering jaw
+scroll chuck
+scroll gear
+hold workpiece
+hold tool
+three jaws tool holder
+independant jaw tool holder
+four jaw holder
+workpiece centering
+drill bit holder
+workpiece gripper
+self centering gripper
+independant jaw chuck

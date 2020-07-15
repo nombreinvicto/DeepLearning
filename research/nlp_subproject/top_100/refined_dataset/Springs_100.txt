@@ -98,3 +98,23 @@ suppleness
 workability
 rigidity member
 rigidity
+elongates
+chain tensioner
+harmonic actuated
+Coil springs
+compression energy
+tension energy
+elastic compressive elements
+leaf spring suspension
+harmonic shock absorber
+elastic rod extension
+clasp mechanism
+elastic slinky
+vehicle suspension
+balance springs
+elastic clasps
+energy retention device
+spring mattresses
+trampoline
+buckling member
+energy absorbing member

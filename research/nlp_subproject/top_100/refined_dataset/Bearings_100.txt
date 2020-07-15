@@ -98,3 +98,23 @@ roller element
 hydrostatic element
 roller bearing
 torsional bearing
+inner race
+outer race
+retainer
+grease lubricated
+chromium plated
+spherical roller
+cylinder bores
+hydraulic cylinder
+rotary piston
+predrilled holes
+hydraulically driven
+spherical bearings
+radial
+nodular iron
+taper roller
+self lubricating
+rotor shaft
+cam shafts
+idler pulley
+pinion shaft

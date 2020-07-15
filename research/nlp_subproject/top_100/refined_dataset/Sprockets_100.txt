@@ -98,3 +98,23 @@ chain drive
 gear train
 chain track drive
 counter shaft sprocket
+pinion
+rag wheel
+gear wheel
+spur wheel
+rear sprocket
+chain ring
+wheels
+front derailleur
+Campagnolo Record
+gearset
+rear derailleur
+derailleur
+pinion gears
+tooth chainring
+belts pulleys
+cranksets
+counter shaft
+brake levers
+spline axles
+coaster brake
