@@ -5,9 +5,17 @@ date: 7/4/2020
 output: html_document
 ---
 
+
+
+
+
+
 ```{r}
 require(astsa)
 ```
+
+
+
 ```{r}
 plot(jj, type = "o", main = "JJ quarterly earning per share", ylab
   = "earnings", xlab = "years")
@@ -42,8 +50,8 @@ acf(purely_random_process)
 ```{r}
 x = NULL
 x[1] = 0
-for (i in 2:1000){
-  x[i] = x[i-1] + rnorm(1)
+for (i in 2:1000) {
+  x[i] = x[i - 1] + rnorm(1)
 }
 
 random_walk = ts(x)
