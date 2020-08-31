@@ -17,6 +17,7 @@ class AspectAwarePreprocessor:
 
         # if width is smaller than height, then resize along the width
         if w < h:
+            # imutils resize does an aspect aware resize
             image = imutils.resize(image, width=self.width)
             dh = int((image.shape[0] - self.height) / 2.0)
 
