@@ -1,19 +1,12 @@
 import numpy as np
-import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from matplotlib.figure import Figure
 import matplotlib.axes._axes as axes
 
 sns.set()
 # %%
 import torch
 from torch import nn
-from torch import optim
-import torch.nn.functional as F
-from torch.utils.data import DataLoader
-from torchvision import datasets, transforms, models
-
 # %%
 
 # generate synthetic data
