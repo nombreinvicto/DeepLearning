@@ -60,4 +60,4 @@ class HDF5DatasetGenerator:
             epochs += 1
 
     def close(self):
-        self.close()
+        self.db.close()
