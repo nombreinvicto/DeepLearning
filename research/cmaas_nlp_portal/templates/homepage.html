@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+
+{% block body %}
+    <div class="card text-center">
+        <div class="card-header">
+            <h1>Describe Parts</h1>
+        </div>
+        <div class="card-body">
+            <form action="/parse_text" enctype="multipart/form-data"
+                  method="post">
+                <div class="form-group">
+                    <input type="text" name="text"
+                           class="btn btn-primary btn-lg active search_text">
+                    {#                    <input type="file" name="file"#}
+                    {#                           class="btn btn-primary btn-lg active">#}
+                    <input type="submit" value="Search!"
+                           class="btn btn-outline-success">
+                </div>
+            </form>
+        </div>
+        <br>
+        <div class="part_deck">
+            {% if image_src_tags %}
+
+                <div class="part_deck_cards">
+                    {% for src_tag in image_src_tags %}
+
+                        <a href="/open_cad/?part={{ part }}&id={{ src_tag }}">
+                            <img src={{ src_tag }} alt=""
+                                 class="part_card">
+                        </a>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        </div>
+        <div class="card-footer text-muted">
+            <em><b>DIME Labs NLP-CAD Search Engine</b></em>
+        </div>
+    </div>
+{% endblock %}
+
+
+
+{% block js %}
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="../static/css/styles.css">
+{% endblock %}

@@ -1,0 +1,48 @@
+body {
+    background-color: #eceff1;
+    color: #4D4D4D;
+}
+
+.banner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.search_text {
+    width: 600px;
+}
+
+.part_deck {
+
+}
+
+.part_deck_cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.part_card {
+    border: 2px solid mediumseagreen;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    margin: 3rem;
+    box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+}
+
+.part_deck_cards img {
+    transition: all ease 500ms;
+}
+
+
+
+.part_deck_cards img:hover {
+    transform: scale(1.25);
+    opacity: 0.7;
+}
+
+
+
