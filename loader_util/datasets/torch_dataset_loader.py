@@ -1,7 +1,6 @@
 from torch.utils.data import Dataset
 from typing import List
 import numpy as np
-from cv2 import cv2
 from PIL import Image
 import os
 

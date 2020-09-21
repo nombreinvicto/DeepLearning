@@ -1,8 +1,7 @@
 # import the necessary packages
 import imutils
 import numpy as np
-import cv2
-
+from cv2 import cv2
 
 class AspectAwarePreprocessor:
     def __init__(self, width, height, inter=cv2.INTER_AREA):

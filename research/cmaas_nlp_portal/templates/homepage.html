@@ -24,9 +24,11 @@
             {% if image_src_tags %}
 
                 <div class="part_deck_cards">
-                    {% for src_tag in image_src_tags %}
+                    {% for image_name, src_tag in zip(image_list, image_src_tags) %}
 
-                        <a href="/open_cad/?part={{ part }}&id={{ src_tag }}">
+                        {#                        # this is how you send a request with query string#}
+                        <a href="{{ url_for('open_cad_in_f360', part=part,
+                                id=image_name) }}">
                             <img src={{ src_tag }} alt=""
                                  class="part_card">
                         </a>

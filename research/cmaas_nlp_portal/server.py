@@ -12,6 +12,11 @@ cwd = os.getcwd()
 app = Flask(__name__)
 app.env = "development"
 flask_app_PORT = 3000
+
+# jina2 doesnt have these functions. this is the way
+# we make sure jina2 templating language what sth means
+app.jinja_env.globals['zip'] = zip
+app.jinja_env.globals['enumerate'] = enumerate
 CORS(app)
 
 # watch for extra directories
@@ -36,6 +41,7 @@ def homepage():
     supplied_part = query_string_dict.get('part')
     default_title = "DIME Labs CAD Search NLP Engine"
     image_src_tags = []
+    list_of_images = []
 
     # see if this request has been made to query a part or not
     if supplied_part:
@@ -51,7 +57,8 @@ def homepage():
     # construct the context_dict
     context = {'title': default_title,
                'part': supplied_part,
-               'image_src_tags': image_src_tags}
+               'image_src_tags': image_src_tags,
+               'image_list': list_of_images}
 
     return render_template('homepage.html', **context)
 
@@ -65,14 +72,23 @@ def parse_form_text():
             # if supplied text falls in part types, then render pictures
             query_string = {'part': supplied_text}
             return redirect(url_for("homepage", **query_string))
-
-
-
-
         else:
             return "Part type doesnt exist"
     else:
         return "No Text Supplied"
+
+
+@app.route('/open_cad')
+def open_cad_in_f360():
+    # init all the variables according to context
+    query_string_dict = request.args
+    supplied_part = query_string_dict.get('part')
+    supplied_filename = query_string_dict.get('id')
+
+    print(supplied_part)
+    print(supplied_filename)
+
+    return supplied_part, supplied_filename
 
 
 # server spawn
