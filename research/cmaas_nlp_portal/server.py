@@ -1,10 +1,12 @@
 # library imports
-import os, json
+import os, json, pickle, numpy as np
 from os import path, walk
 from flask_cors import CORS
 from flask import Flask, request, redirect, url_for, flash
 from flask import render_template
 from inference import part_types, cad_dir
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from werkzeug.utils import secure_filename
 
 # global variable initialisations
@@ -12,6 +14,20 @@ cwd = os.getcwd()
 app = Flask(__name__)
 app.env = "development"
 flask_app_PORT = 3000
+pad_max_length = 4
+part_categories = ['bearing', 'bolt', 'collet', 'spring', 'sprocket']
+save_path = r"C:\Users\mhasa\AppData\Roaming\Autodesk\Autodesk Fusion 360\MyScripts\PureFlask_3JS_server\flask_app\nlp_model"
+
+
+# my declarations
+# load the keras trained model
+with open(f'{save_path}//tokenizer.pickle', 'rb') as handle:
+    loaded_tokenizer = pickle.load(handle)
+
+# load the keras model
+loaded_model = load_model(f"{save_path}//nlp_model.h5")
+
+
 
 # jina2 doesnt have these functions. this is the way
 # we make sure jina2 templating language what sth means
@@ -68,12 +84,16 @@ def parse_form_text():
     supplied_text = request.form['text']
 
     if supplied_text:
-        if supplied_text in part_types:
-            # if supplied text falls in part types, then render pictures
-            query_string = {'part': supplied_text}
-            return redirect(url_for("homepage", **query_string))
-        else:
-            return "Part type doesnt exist"
+        query_text_for_nlp = np.asarray([supplied_text])
+        text_sequence = loaded_tokenizer.texts_to_sequences(query_text_for_nlp)
+        padded_sequence = pad_sequences(text_sequence, maxlen=pad_max_length)
+        nlp_pred = loaded_model.predict(padded_sequence)
+        index = np.argmax(nlp_pred)
+        queried_part = part_categories[int(index)]
+
+        query_string = {'part': queried_part}
+        return redirect(url_for("homepage", **query_string))
+
     else:
         return "No Text Supplied"
 
