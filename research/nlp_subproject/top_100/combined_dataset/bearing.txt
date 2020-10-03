@@ -1,0 +1,282 @@
+Ball Bearing
+Ball and roller bearing operate with less friction than plain bearings, so they can run at higher speeds.
+All bearings are designed to handle radial loads, thrust loads, moment loads, or a combination of the three. Radial loads are perpendicular to the shaft. Thrust loads are parallel to the shaft. Moment loads are twisting forces that result from offset loads.
+Open bearings dissipate heat more efficiently than shielded and sealed bearings.
+
+Shielded bearings block out dust and other contaminants, but do not dissipate heat as efficiently as open bearings.
+
+Sealed bearings block out dust and other contaminants better than open and shielded bearings, but retain the most heat.
+
+Bearings with retaining ring have a removable retaining ring that holds the bearing inside a housing.
+A solid polymer lubricant surrounds the balls, eliminating the need for additional lubrication. Because it's solid, the lubricant blocks out water and dust, extending the life of the bearing.
+
+Sealed bearings have even better resistance to dust and contaminants than open bearings.
+High-Load Ball Bearings
+With a wider profile than standard ball bearings, these rugged bearings are good for handling heavy loads at low speeds.
+
+Open bearings dissipate heat more efficiently than shielded and sealed bearings.
+
+Shielded bearings block out dust and other contaminants, but do not dissipate heat as efficiently as open bearings.
+
+Sealed bearings block out dust and other contaminants better than open and shielded bearings, but retain the most heat.
+
+Bearings with extended inner ring provide additional shaft support.
+
+Bearings with retaining ring have a removable retaining ring that holds the bearing inside a housing.
+
+Light Duty Ball Bearing
+Use these bearings where high speed and precision are not a concern.
+
+Open bearings dissipate heat more efficiently than shielded and sealed bearings.
+
+Shielded bearings block out dust and other contaminants, but do not dissipate heat as efficiently as open bearings.
+
+Sealed bearings block out dust and other contaminants better than open and shielded bearings, but retain the most heat.
+Precision Ball Bearings
+For greater accuracy and higher speeds, these bearings are made to tighter tolerances than standard ball bearings.
+
+Shielded bearings dissipate heat more efficiently than sealed bearings.
+
+Sealed bearings block out dust and other contaminants better than shielded bearings.
+Self Aligning Ball Bearings
+With a spherical raceway and two rows of balls, these bearings compensate for shaft misalignment.
+
+Open bearings dissipate heat more efficiently than sealed bearings.
+
+Sealed bearings block out dust and other contaminants better than open bearings, but retain more heat.
+Hex-Bore Ball Bearings
+Mount these bearings onto a hex shaft. All have an extended inner ring for additional shaft support. Seals keep out dust and contaminants.
+
+Electrically Insulated Ball Bearings
+Good for use in electric motors and power generators, these bearings have ceramic balls that insulate against stray current to prevent damage to the bearing. The ceramic balls generate less heat than steel balls, so they require lubrication less frequently. Shields keep out dust and contaminants.
+Internal locking elements (sprags) lock to transmit torque in one direction while turning freely in the other direction. Use them in applications where precision movement is required, such as pick-and-place and automated indexing conveyor systems. Shields keep out dust and contaminants.
+
+Shielded bearings dissipate heat better than sealed bearings, but don’t keep out as much dust.
+
+For dirty or dusty environments, sealed bearings are the best choice, since they block out contaminants better than shielded bearings.
+Stainless Steel Ball Bearings
+Bearings are 440C stainless steel for good corrosion resistance.
+
+Open bearings dissipate heat more efficiently than shielded and sealed bearings.
+
+Shielded bearings block out dust and other contaminants, but do not dissipate heat as efficiently as open bearings.
+
+Sealed bearings block out dust and other contaminants better than open and shielded bearings, but retain the most heat.
+
+Bearings with extended inner ring provide additional shaft support.
+Permanently Lubricated Stainless Steel Ball Bearings
+A solid polymer lubricant surrounds the balls, eliminating the need for additional lubrication. The solid lubricant blocks out water and dust, extending the life of the bearing.
+
+Sealed bearings have even better resistance to dust and contaminants than open bearings.
+Precision Stainless Steel Ball Bearings
+Made to tight tolerances, these 440C stainless steel bearings combine speed and accuracy with corrosion resistance.
+
+Open bearings dissipate heat more efficiently than shielded bearings.
+
+Shielded bearings block out dust and other contaminants, but do not dissipate heat as efficiently as open bearings.
+Ultra Corrosion Resistant Stainless Steel Ball Bearings
+These 316 stainless steel bearings are more corrosion resistant than our other stainless steel bearings, but they have a lower load capacity.
+Food Industry Permanently Lubricated Stainless Steel Ball Bearings
+Good for applications with incidental food contact, these 440C stainless steel bearings have a food-grade, solid polymer lubricant between the balls and ring that eliminates the need for additional lubrication. The solid lubricant blocks out water and dust, extending the life of the bearing.
+
+Sealed bearings have even better resistance to dust and contaminants than open bearings.
+Plastic Ball Bearings
+These acetal bearings have good all-around corrosion and chemical resistance.
+
+316 stainless steel balls have excellent corrosion resistance.
+
+Glass balls have even more corrosion resistance than stainless steel balls.
+Water Resistant Plastic Ball Bearings
+Made of PVDF, these bearings resist moisture absorption, so they won’t warp in underwater applications. They also have excellent chemical and corrosion resistance.
+High Temperature Plastic Ball Bearings
+These PEEK bearings operate in temperatures above 300° F, almost twice as high as our other plastic ball bearings. They also have good chemical resistance and excellent corrosion resistance
+
+Self Aligning Flanged Ball Bearings
+precisely aligning these bearings—they swivel to compensate for up to 5° of shaft misalignment. The flange ensures proper positioning inside a tube or housing.
+
+Open bearings dissipate heat more efficiently than shielded and sealed bearings.
+
+Shielded bearings block out dust and other contaminants, but do not dissipate heat as efficiently as open bearings.
+
+Sealed bearings block out dust and other contaminants better than open and shielded bearings, but retain the most heat.
+
+Stainless steel bearings are more corrosion resistant than steel bearings.
+Precision Flanged Ball Bearings
+When speed and accuracy matter most, opt for these bearings. They’re made to tighter tolerances than standard flanged ball bearings. All are 440C stainless steel for good corrosion resistance. The flange ensures proper positioning inside a tube or housing.
+Panel-Mount Ball Bearings
+Unlike other ball bearings, these do not need to be fully inserted into a housing. A spline around the outside of the bearing creates a permanent, secure hold in thin panels. Bearings swivel to accommodate up to 5° of shaft misalignment. Shields keep out dust and contaminants. Not for use in plastic panels.
+With twice as many contact points as angular-contact ball bearings, these bearings resist any combination of radial, thrust, and moment (twisting) loads. Fit onto large-diameter hollow shafts to run air and hydraulic lines, electrical wiring, and other components through moving parts in assemblies such as index and rotary tables, packaging equipment, and robotics.
+
+
+Tapered Roller Bearings
+
+Found anywhere from machine tool spindles to conveyor rollers, these bearings have a two-piece design that allows for adjustment.
+
+Zinc-coated steel bearings provide better corrosion resistance than steel bearings.
+
+Crossed Roller Bearings
+
+Mounting holes on the inner and outer rings allow for fastening onto hollow joints and shafts. The rollers face in alternating directions to allow for rigid, accurate motion under any combination of radial, thrust, and moment (twisting) loads. Use in applications where highly accurate motion is necessary, such as machine tools and industrial robots.
+
+With a considerably larger ID than our Face-Mount Crossed-Roller Bearings, use these to run hydraulic lines, electrical wiring, and other components through the inside of the bearing. The rollers face in alternating directions to allow for rigid, accurate motion under any combination of radial, thrust, and moment (twisting) loads. Use in applications where highly accurate motion is necessary, such as machine tools and industrial robots.
+
+Spherical Roller Bearings
+
+Two rows of rollers give these bearings dynamic radial load capacities over five times higher than comparably sized tapered-roller bearings. Also known as rock crusher bearings, they handle heavy shock loads and are used for metal milling machinery, mining and oil field equipment, and in paper mills.
+
+Ball Needle Roller Bearings
+
+A built-in thrust ball bearing reduces wear from adjacent shaft components, while the needle rollers support high radial loads. Install anywhere you would use separate bearings for radial and thrust loads.
+
+Needle Roller Bearings
+
+Also known as drawn-cup roller bearings, these are our thinnest roller bearings. The outer ring is drawn out to form a lip that holds the bearing together. Bearings take on the shape of their housing and may be oblong prior to installation.
+
+Precision Needle Roller Bearings
+
+Install these bearings directly onto hardened and ground shafts. They have higher load capacity, speed, and accuracy than standard needle-roller bearings.
+
+Shaft Liners for Precision Needle Roller Bearings
+
+Adapt high-precision needle-roller bearings to use on unhardened, unground shafts. The liner fits between the roller and the shaft.
+
+The needles in these bearings roll freely in one direction, but lock to transmit torque when the rotation of the shaft is reversed. Also known as drawn-cup roller clutches. An arrow on the lip indicates the rotational direction that locks the bearings.
+
+Needle Roller Thrust Bearings
+
+Thinner rollers allow these bearings to fit in tighter spaces than tapered-roller thrust bearings. Because of the large contact area between the rollers and washers (not included), these bearings are great for medium to heavy duty, low-friction jobs. For use on hardened and ground surfaces.
+
+Moving parts in machinery involve relative sliding or rolling motion. Examples of relative motion are linear sliding motion, such as in machine tools, and rotation motion, such as in motor vehicle wheels. Most bearings are used to support rotating shafts in machines. Rubbing of two bodies that are loaded by a normal force (in the direction normal to the contact area) generates energy losses by friction and wear. Appropriate bearing design can minimize friction and wear as well as early failure of machinery. The most important objectives of bearing design are to extend bearing life in machines, reduce friction energy losses and wear, and minimize maintenance expenses and downtime of machinery due to frequent bearing failure.
+
+With no moving parts, plain bearings are the simplest type of bearing. Compared to ball and roller bearings, they generally handle higher temperatures and perform better in dirty environments.
+
+All plain bearings are designed to handle radial loads, thrust loads, or a combination of the two. Radial loads are perpendicular to the shaft. Thrust loads are parallel to the shaft. Sleeve bearings handle radial loads. Flanged sleeve bearings handle both radial and thrust loads. Thrust bearings handle thrust loads.
+
+Rolling-element bearings are characterized by rolling motion, such as in ball bearings or cylindrical rolling-element bearings. The advantage of rolling motion is that it involves much less friction and wear, in comparison to the sliding motion of regular sleeve bearings.
+
+The term hydrodynamic bearing refers to a sleeve bearing or an inclined plane-slider where the sliding plane floats on a thin film of lubrication. The fluid film is maintained at a high pressure that supports the bearing load and completely separates the sliding surfaces. The lubricant can be fed into the bearing at atmospheric or higher pressure. The pressure wave in the lubrication film is generated by hydrodynamic action due to the rapid rotation of the journal. The fluid film acts like a viscous wedge and generates high pressure and load-carrying capacity. The sliding surface floats on the fluid film, and wear is prevented.
+
+hydrostatic bearing refers to a configuration where the pressure in the fluid film is generated by an external high-pressure pump. The lubricant at high pressure is fed into the bearing recesses from an external pump through high-pressure tubing. The fluid, under high pressure in the bearing recesses, carries the load and separates the sliding surfaces, thus preventing high friction and wear.
+
+In comparison to rolling-element bearings, limited fatigue life is not a major problem for hydrodynamic bearings. As long as a full fluid film completely separates the sliding surfaces, the life of hydrodynamic bearings is significantly longer than that of rolling bearings, particularly at very high speeds. However, hydrodynamic bearings have other disadvantages that make other bearing types the first choice for many applications. Hydrodynamic bearings can be susceptible to excessive friction and wear whenever the journal surface has occasional contact with the bearing surface and the superior fluid film lubrication is downgraded to boundary or mixed lubrication. This occurs at low operating speeds or during starting and stopping, since hydrodynamic bearings require a certain minimum speed to generate an adequate film thickness capable of completely separating the sliding surfaces.
+
+hydraulically actuated
+ball
+sphere
+gear component
+trunnion
+hydraulic
+rollers
+inner race
+outer race
+retainer
+propeller shafts
+pintle
+sheave
+hydraulically driven
+spherical bearings
+radial
+nodular iron
+taper roller
+self lubricating
+rotor shaft
+cam shafts
+idler pulley
+pinion shaft
+spindle bearings
+planetary gears
+ballscrew
+pinion gears
+servo hydraulic
+tappet roller
+tapered roller bearings
+lubrication
+gear shifters
+belts pulleys
+bearings bushings
+ball screw
+grease lubricated
+chromium plated
+spherical roller
+piston rod
+idler arm
+pinion gear
+bore
+pneumatically driven
+pneumatic cylinders
+crankshaft bearings
+piston rods
+hydraulically powered
+tappets
+spherical roller bearings
+wheel bearings
+hydraulically controlled
+stiffer bushings
+hydraulic piston
+grease fittings
+auxiliary hydraulics
+multiaxial
+shaft collars
+tapered roller
+axial loading
+roller camshaft
+screwdriving
+brake rotor
+proportioning
+servo driven
+conveyor rollers
+hydraulic pistons
+cylindrical roller bearings
+belay device
+tensioning
+harmonic balancer
+Lubricate
+spindle
+pinion angle
+gear reducer
+screw conveyors
+dowel pins
+torque convertor
+speed reducers
+roller conveyor
+conveyor belting
+roller conveyors
+longitudinally mounted engine
+pneumatically operated
+cylinder bores
+hydraulic cylinder
+rotary piston
+predrilled holes
+chrome grilles
+wiper motors
+swivel casters
+axle shafts
+piping valves
+hollow shaft
+roller bearings
+pressure angle
+gyroscope component
+roller element
+hydrostatic element
+roller bearing
+torsional bearing
+inner race
+outer race
+retainer
+grease lubricated
+chromium plated
+spherical roller
+cylinder bores
+hydraulic cylinder
+rotary piston
+predrilled holes
+hydraulically driven
+spherical bearings
+radial
+nodular iron
+taper roller
+self lubricating
+rotor shaft
+cam shafts
+idler pulley
+pinion shaft
