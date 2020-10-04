@@ -1,0 +1,152 @@
+A sprocket or sprocket-wheel is a profiled wheel with teeth, or cogs, that mesh with a chain, track or other perforated or indented material. The name 'sprocket' applies generally to any wheel upon which radial projections engage a chain passing over it. It is distinguished from a gear in that sprockets are never meshed together directly, and differs from a pulley in that sprockets have teeth and pulleys are smooth except for timing pulleys used with toothed belts.
+Sprockets are used in bicycles, motorcycles, cars, tracked vehicles, and other machinery either to transmit rotary motion between two shafts where gears are unsuitable or to impart linear motion to a track, tape etc. Perhaps the most common form of sprocket may be found in the bicycle, in which the pedal shaft carries a large sprocket-wheel, which drives a chain, which, in turn, drives a small sprocket on the axle of the rear wheel. Early automobiles were also largely driven by sprocket and chain mechanism, a practice largely copied from bicycles.
+Sprockets are of various designs, a maximum of efficiency being claimed for each by its originator. Sprockets typically do not have a flange. Some sprockets used with timing belts have flanges to keep the timing belt centered. Sprockets and chains are also used for power transmission from one shaft to another where slippage is not admissible, sprocket chains being used instead of belts or ropes and sprocket-wheels instead of pulleys. They can be run at high speed and some forms of chain are so constructed as to be noiseless even at high speed.
+In the case of bicycle chains, it is possible to modify the overall gear ratio of the chain drive by varying the diameter (and therefore, the tooth count) of the sprockets on each side of the chain. This is the basis of derailleur gears. A multi-speed bicycle, by providing two or three different-sized driving sprockets and up to 12 (as of 2018) different-sized driven sprockets, allows up to 36 different gear ratios. The resulting lower gear ratios make the bike easier to pedal up hills while the higher gear ratios make the bike more powerful to pedal on flats and downhills. In a similar way, manually changing the sprockets on a motorcycle can change the characteristics of acceleration and top speed by modifying the final drive gear ratio. The final drive gear ratio can be calculated by dividing the number of teeth on the rear sprocket by the number of teeth on the counter-shaft sprocket. With respect to the stock gearing on a motorcycle, installing a smaller counter-shaft sprocket (fewer teeth), or a larger rear sprocket (more teeth), produces a lower gear ratio, which increases the acceleration of the motorcycle but decreases its top speed. Installing a larger counter-shaft sprocket, or a smaller rear sprocket, produces a higher gear ratio, which decreases the acceleration of the motorcycle but increases its top speed.
+In the case of vehicles with caterpillar tracks the engine-driven toothed-wheel transmitting motion to the tracks is known as the drive sprocket and may be positioned at the front or back of the vehicle, or in some cases both. There may also be a third sprocket, elevated, driving the track.
+Chain drives are widely used for the transmission of power where shafts are separated at distances greater than that for which gears are practical. In such cases, sprockets take the place of gears but, being widely separated, drive one another by means of the chain passing over the sprocket teeth. A sprocket is a wheel with teeth shaped to mesh with the chain. The chains used in conveyor belts are commonly block chains, which consist of solid or laminated blocks connected by side plates and pins. The blocks engage with teeth on sprocket wheels. Depending on the material being moved, buckets, hooks, or other devices are connected to the blocks.
+Mount these sprockets onto your shaft and secure with a set screw—no machining necessary.
+Roller chain links engage with matched sprocket teeth to transmit power between rotating shafts. Since there's no slippage and little stretch, chain drives can handle heavy loads and high torque. Sizing Roller Chain and Sprockets—ANSI roller chain and sprockets have a standard ANSI number. Metric roller chain and sprockets have a standard ISO number. Only use chain and sprockets with the same number together. If you don't know the ANSI or ISO number of your chain or sprocket, determine size by measuring pitch. Pitch is the distance between the pin centers of a chain link.
+Modifying Roller Chain Length—Reduce chain length with a chain breaker. Join and extend chain with individual links.
+Connecting links are also known as master links. They're used to join the ends of a chain length. The side plate is easy to remove for attaching to a chain.
+Sprockets attach to rotating shafts and transmit power to your roller chain. Idler sprockets maintain constant tension on your drive by pressing against your chain to take up slack and reduce wear and vibration. Bushing-bore sprockets mate with bushings that can be swapped out for a different bore size, so there's no need to replace your sprocket when working with multiple shaft diameters. Machinable-bore sprockets have an unfinished bore that can be machined for a custom fit.
+Machine the center of these sprockets to fit the exact dimensions of your shaft. They come machined to the shaft diameter size listed and are machinable up to the maximum shaft diameter size. The teeth are sized to fit into metric ISO roller chain. Made from stainless steel, they won’t corrode from humidity or frequent washdowns. The extended hub makes these sprockets more stable and more durable than sprockets with flat hubs.
+The double row of teeth on these sprockets are designed to fit into metric ISO double-strand roller chain. They have an unfinished bore that’s machined to the shaft diameter size listed. Machine them to fit any shaft up to the maximum shaft diameter size. The extended hub makes these sprockets more stable and more durable than flat sprockets.
+With metric teeth and slim profile, these sprockets allow your ISO roller chain to reach narrow spaces. They're commonly referred to as A-plate sprockets. Machine the unfinished bore to fit your shaft—sprockets come machined to the shaft diameter listed and are machinable up to the maximum shaft diameter size.
+Often used in electronic equipment, instrumentation devices, printers, and other compact machinery, these sprockets are made for use with our miniature roller chain. Acetal sprockets are lightweight, quiet, and nonconductive. Press fit them onto your shaft. Stainless steel sprockets are corrosion resistant for use in harsh environments. Mount them onto your shaft and secure with a set screw.
+Maintain constant tension on your drive with these sprockets that press against your chain to take up slack and reduce wear and vibration. They rotate freely on built-in bearings and are for use with roller chain tensioners. Bearings are double sealed to keep dirt out.
+Hardened teeth give these steel sprockets increased wear resistance for a long service life. Designed to rotate freely on built-in bearings, idler sprockets maintain constant tension on your drive by pressing against your chain to take up slack and reduce wear and vibration. They are for use with roller chain tensioners.
+these sprockets are lightweight, quiet, and corrosion resistant. Designed to rotate freely on built-in bearings, idler sprockets maintain constant tension on your drive by pressing against your chain to take up slack and reduce wear and vibration. They are for use with roller chain tensioners.
+A wide hub provides these sprockets with stability under heavy loads. Designed to rotate freely on built-in bearings, idler sprockets maintain constant tension on your drive by pressing against your chain to take up slack and reduce wear and vibration. They are for use with roller chain tensioners. Bearings are self-lubricating.
+Maintain constant tension on your drive with these sprockets that press against your chain to take up slack and reduce wear and vibration. They rotate freely on built-in bearings and are for use with roller chain tensioners. Bearings are double sealed to keep dirt out.
+Keep constant tension on your drive with these sprockets that press against your metric ISO roller chain to take up slack and reduce wear and vibration. They rotate freely on built-in ball bearings, which are double sealed to keep dirt out, and are for use with roller chain tensioners. All come with a finished bore that fits directly onto your shaft—no need for machining.
+While their teeth fit into metric ISO roller chain, these sprockets use taper-lock bushings to grip shafts. That means you can switch to a different diameter shaft by changing the bushing instead of machining the sprocket. Bushings mount flush inside these sprockets; secure them in place by tightening the set screws included with the bushings. These sprockets have an extended hub that makes them more stable and durable than flat sprockets.
+Roller chain or bush roller chain is the type of chain drive most commonly used for transmission of mechanical power on many kinds of domestic, industrial and agricultural machinery, including conveyors, wire- and tube-drawing machines, printing presses, cars, motorcycles, and bicycles. It consists of a series of short cylindrical rollers held together by side links. It is driven by a toothed wheel called a sprocket.
+Engineered chain offers an alternative to roller chain in many heavy-duty applications, such as conveyors, drum drives, and elevators. These applications often require engineered chain drives because they are more durable and able to withstand adverse operating conditions.
+There are many types of sprockets to fit the various engineered chain versions, and the number of choices may surprise you. In general, these sprockets have hub configurations similar to those used with roller chain. Spokes or lightening holes are commonly used to reduce the weight of these sprockets, which are often larger and heavier than roller chain sprockets.
+One type of sprocket is split into two 180-deg segments, to simplify installation and removal, particularly of large sprockets that are installed between bearings. This lets a technician place them on the shaft and bolt them together without removing bearings or disturbing the shaft alignment.
+Some sprockets used with longpitch conveyor chains resemble bar chain sprockets but include pockets at the tooth corners to accommodate the chain rollers. Conveyor chains normally have attachments on the top side, which, if used with a drive chain sprocket, would interfere with the tops of the teeth. Therefore, make sure the sprocket matches the chain type.
+Sprocket materials include cast iron, an economical choice for moderate service; chill iron, in which rapid cooling of the teeth creates a hard surface that resists abrasion; and either cast steel or fabricated steel (with flame-cut teeth), which accommodates higher loads.
+For long life, sprocket teeth may be flame-hardened, carburized, or carburized and induction-hardened. The effectiveness of the heat treatment depends on both the steel hardenability (carbon content and alloy), and the process.
+The tooth form of a sprocket is derived from the geometric path described by the chain roller as it moves through the pitch line, and pitch circle for a given sprocket and chain pitch. The shape of the tooth form is mathematically related to the Chain Pitch (P), the Number of Teeth on the Sprocket (N), and the Diameter of the Roller (Dr). The formulas for the seating curve, radius R and the topping curve radius F include the clearances necessary to allow smooth engagement between the chain rollers and sprocket teeth.
+Nylon or delrin sprockets need extra support to remain stiff and non deforming under load. The GEARS 30 tooth sprocket is cast with webbing as shown in figures 1 and 2 below. For added realism, measure the webbing on the GEARS-IDS sprocket with a dial caliper and create the sprocket geometry shown in the examples below
+
+derailleurs
+gears
+cog
+cog wheel
+pinion
+rag wheel
+gear wheel
+spur wheel
+rear sprocket
+chain ring
+wheels
+front derailleur
+Campagnolo Record
+gearset
+rear derailleur
+derailleur
+pinion gears
+tooth chainring
+belts pulleys
+cranksets
+counter shaft
+brake levers
+spline axles
+coaster brake
+freehub body
+planetary gears
+skidplate
+brake lever
+axle shafts
+derailleur hanger
+chain tensioner
+swingarm pivot
+epicyclic
+tensioners
+chainset
+shifter
+paddle shift
+bevel gears
+gear lever
+harmonic balancer
+gated shifter
+rear derailleurs
+helical gears
+gearshift lever
+gearboxes
+chainstays
+bike groupsets
+rear brake lever
+hand wheel
+rear diff
+rear axle differential
+locking differential
+manual gearshift
+mounted paddle shifters
+semi automatic gearbox
+gear shifters
+crankshaft pulley
+countershaft sprocket
+gear lever
+rear subframe
+gearshift levers
+wheelsets
+serpentine belt
+calliper
+powershift transmission
+diff locks
+bevel gear
+brake pad
+bevel helical
+gear change
+transaxle
+clutch actuation
+spool valves
+clutch gearbox
+overhead camshafts
+derailer
+belt tensioner
+triple chainset
+spoked wheels
+rear chain
+dual piston calipers
+six speed Steptronic
+towbars
+teeth wheel
+chain mesh wheel
+rotary motion transmission
+pedal shaft
+foot brake
+speed sequential gearbox
+caliper brakes
+spline shafts
+timing belt component
+sprocket wheel
+roller chain
+toothed belt component
+bicycle gearing
+chain drive
+gear train
+chain track drive
+counter shaft sprocket
+pinion
+rag wheel
+gear wheel
+spur wheel
+rear sprocket
+chain ring
+wheels
+front derailleur
+Campagnolo Record
+gearset
+rear derailleur
+derailleur
+pinion gears
+tooth chainring
+belts pulleys
+cranksets
+counter shaft
+brake levers
+spline axles
+coaster brake

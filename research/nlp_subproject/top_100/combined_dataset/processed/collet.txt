@@ -1,0 +1,206 @@
+collets
+tailstock
+toolholder
+gripper
+dowel rod
+countersunk
+chuck
+collar
+clamping
+outer
+attachable
+tail stock adjuster
+cnc machine fixture
+workpiece holder
+fixture for workpiece adjustment
+workpiece adjustment
+self centering chuck
+self aligning centering
+mandrel
+neckstrap
+Remove giblets
+swingarm pivot
+buttstock
+tapered steerer
+collet chucks
+CNC machined
+tapered outer collar
+clamping force
+workpiece holder
+tool holder
+tightening sleeve
+workpiece securer
+tool securer
+telescoping tube tightener
+collet chuck
+tapered sleeve
+silicone sleeve
+clamping range
+strong clamping
+self centering
+fast chucking
+machine centering
+secure clamping
+workholding
+chuck key
+holding jaw
+self centering jaw
+scroll chuck
+scroll gear
+hold workpiece
+hold tool
+three jaws tool holder
+independant jaw tool holder
+four jaw holder
+workpiece centering
+drill bit holder
+workpiece gripper
+self centering gripper
+independant jaw chuck
+workpiece concentric
+concentric tool
+removable jaws
+sleeve chuck
+workpiece squeezer
+radial squeezer
+lathe machine tool holder
+cnc machine workpiece holder
+arbor self holding taper
+headstock spindle
+faceplate
+electrostatic clamping force
+holding force
+jaw construction
+radial squeezing
+concentric squeezing
+milling machine holder
+cylindrical workpiece holder
+radial compressor
+workpiece fixture
+bar holder
+radial fixture
+three legged holder
+hold thin wall tubing
+mounting screw clamp
+concentric squeezer
+workpiece holder
+machine centering
+inner sleeve taper centering
+gripping force
+concentric tool holder
+jaw holder
+workpiece fastener
+cylindrical workpiece centering
+holding shapes
+center machining
+cutter clamping
+tightening force
+radial clamping
+headstock holder
+tailstock holder
+self centering
+fast chucking
+machine centering
+secure clamping
+workholding
+chuck key
+holding jaw
+self centering jaw
+scroll chuck
+scroll gear
+hold workpiece
+hold tool
+three jaws tool holder
+independant jaw tool holder
+four jaw holder
+workpiece centering
+drill bit holder
+workpiece gripper
+self centering gripper
+independant jaw chuck
+tightly grip workpieces when installed into a 5C collet chuck or holder
+ They provide a stronger hold on small workpieces than a standard lathe chuck
+collets to securely hold round-shank tool bits in the R8 spindle of a milling machine
+ They have internal threads
+collet chuck or holder to tightly grip round-shank tool bits in milling machines
+collet chuck or holder to tightly grip round shank tool bits in milling machines
+collet chuck or holder to tightly grip round workpieces
+ They provide a stronger hold on small workpieces than a standard lathe chuck
+ These collets have both external and internal threads
+collet chuck or holder to tightly grip round-shank tool bits in milling machines
+collet chuck or holder to tightly grip round-shank tool bits in milling machines
+collets in milling machines that have an ER-25 collet chuck
+ With a round face and adjustable body, they compress to grip round-shank drill bits, end mills, reamers, and taps
+To ensure they work with milling machines and tooling made throughout the world, these collets meet both ISO and DIN dimensional standards
+collets securely grip round workpieces
+ They provide a stronger hold on small workpieces than a standard lathe chuck
+ All have external threads
+collets tightly grip workpieces when installed into a 5C collet chuck or holder
+ Also known as emergency collets, their machinable face allows you to bore an opening to exactly the size and shape you need
+ All have external and internal threads
+The head on these collets acts like a mandrel to support the inside of a hollow workpiece
+ An expanding screw widens the head to firmly grip the workpiece
+ It can be machined to fit the exact ID of your part
+ All have external threads
+Insert into a 16C collet chuck or holder to tightly grip workpieces
+ Also known as emergency collets, their machinable face allows you to bore an opening to exactly the size and shape you need
+ All have external and internal threads
+When installed into a 3J collet chuck or holder, these collets can securely grip workpieces
+ Also known as emergency collets, their machinable face allows you to bore an opening to exactly the size and shape you need
+ All have external threads
+Also known as step collets, their wide head can be machined to hold large workpieces that won't fit in a standard collet
+ They have external threads
+Save time when switching to a new workpiece by changing out the head instead of the entire collet
+ Also known as step collets, their wide head can be machined to hold large workpieces that won't fit in a standard collet
+Use these collets to securely hold round-shank tool bits in the R8 spindle of a milling machine
+ They have internal threads
+These collets tightly grip workpieces when installed into a 5C collet chuck or holder
+ They provide a stronger hold on small workpieces than a standard lathe chuck
+Securely hold collets in the spindle of a milling machine
+Use a nut wrench (sold separately) to tighten the chuck nut and secure the tool bit in the collet
+The sleeve on these mandrels expands to hold a range of IDs for better versatility than solid and expanding-end mandrels
+ They can hold the workpiece at any position along the sleeve
+ To use, insert the sleeve into the workpiece before inserting the small end of the tapered body into the sleeve and pushing until it's tight
+ Mandrels are also known as arbors
+Use an arbor press to secure the narrow end of one of these tapered mandrels into the hole of a workpiece
+ The wide end has a flat for use with a lathe driver when turning between centers
+ Mandrels are also known as arbors
+A collet is a subtype of chuck that forms a collar around an object to be held and exerts a strong clamping force on the object when it is tightened, usually by means of a tapered outer collar
+ It may be used to hold a workpiece or a tool
+ An external collet is a sleeve with a (normally) cylindrical inner surface and a conical outer surface
+ The collet can be squeezed against a matching taper such that its inner surface contracts to a slightly smaller diameter, squeezing the tool or workpiece to hold it securely
+ Most often this is achieved with a spring collet, made of spring steel, with one or more kerf cuts along its length to allow it to expand and contract
+ An alternative collet design is one that has several tapered steel blocks (essentially tapered gauge blocks) held in circular position (like the points of a star, or indeed the jaws of a jawed chuck) by a flexible binding medium (typically synthetic or natural rubber)
+ Regardless of the collet design, the operating principle is the same: squeeze the collet against the tool or workpiece to be held, resulting in high static friction and accurate alignment
+ An internal collet can be used to lock two telescoping tubes together
+ In this case the collet is in the form of a truncated cone drilled and threaded down the centreline
+ The collet diameter matches the bore of the inner tube, having the larger end slightly greater than the bore while the smaller diameter is slightly less than the bore
+ A threaded stud, anchored at its other end to the tube, is then used to pull the collet into the tube
+ The increasing diameter of the collet forces the inner tube to expand and be pushed against the inner wall of the outer tube thus locking the two tubes together
+ The inner tube is often slotted to facilitate this expansion
+Generally, a collet chuck, considered as a unit, consists of a tapered receiving sleeve (sometimes integral with the machine spindle), the collet proper (usually made of spring steel) which is inserted into the receiving sleeve, and (often) a cap that screws over the collet, clamping it via another taper
+Usually in shop-floor terminology, the terms collet and chuck are used in contradistinction; users speak of holding a workpiece or tool with either a collet or a chuck
+ In this context "chuck" means any type of chuck other than a collet chuck (scroll chuck, independent-jaw chuck, etc
+Collets have a narrow clamping range and a large number of collets are required to hold a given range of bits
+ This gives the disadvantage of higher capital cost and makes them unsuitable for general usage in electric drills, etc
+ However, the collet's advantage over other types of chuck is that it combines all of the following traits into one chuck, making it highly useful for repetitive work
+Fast chucking unclamp one part, switch to a new part, reclamp
+ Self centering
+ Strong clamping
+ Precise centering
+In use, the part to be held is inserted into the collet and then the collet is pressed (using a threaded nose cap) or drawn (using a threaded drawbar) into the body which has a conjugate taper form
+ The taper geometry serves to translate a portion of the axial drawing force into a radial clamping force
+ When properly tightened, enough force is applied to securely clamp the workpiece or tool
+ The cap or drawbar threads act as a screw lever, and this leverage is compounded by the taper, such that a modest torque on the screw produces an enormous clamping force
+ The precise, symmetric form and rigid material of the collet provide precise, repeatable radial centering and axial concentricity
+ The basic mechanism fixes four of the six degrees of kinematic freedom, two locations and two angles
+ Collets may also be fitted to precisely align parts in the axial direction (a fifth degree of freedom) with an adjustable internal stop or by a shoulder stop machined into the internal form
+ The remaining sixth degree of freedom, namely the rotation of the part in the collet, may be fixed by using square, hexagonal, or other non-circular part geometry
+Autolock" collet chucks (Osbourn "Pozi-Lock" is a similar system) were designed to provide secure clamping of milling cutters with only hand tightening
+ They were developed in the 1940s by a now defunct UK company, Clarkson (Engineers) Limited, and are commonly known as Clarkson chucks
+ Autolock collets require cutters with threaded shank ends to screw into the collet itself
+ Any rotation of the cutter forces the collet against the collet cap taper which tightly clamps the cutter, the screw fitting also prevents any tendency of the cutter to pull out
+ Collets are only available in fixed sizes, imperial or metric, and the cutter shank must be an exact match
+Some work pieces, because of their size and shape, cannot be held and machined between lathe centers
+ Lather chucks are used extensively for holding work for machining operations
+ The most commonly used lathe chucks are the three jaw universal, four jaw independent, and the collects chuck

@@ -1,0 +1,249 @@
+A bolt is a form of threaded fastener with an external male thread
+ Bolts are very closely related to screws
+The distinction between a bolt and a screw is commonly misunderstood
+ There are several practical differences, but most have some degree of overlap between bolts and screws
+The defining distinction, per Machinery's Handbook, is in their intended purpose: Bolts are for the assembly of two unthreaded components, with the aid of a nut
+ Screws in contrast are used in components which contain their own thread, and the screw may even cut its own internal thread into them
+ Many threaded fasteners can be described as either screws or bolts, depending on how they are used
+Bolts are often used to make a bolted joint
+ This is a combination of the nut applying an axial clamping force and also the shank of the bolt acting as a dowel, pinning the joint against sideways shear forces
+ For this reason, many bolts have a plain unthreaded shank (called the grip length) as this makes for a better, stronger dowel
+ The presence of the unthreaded shank has often been given as characteristic of bolts vs
+ screws,but this is incidental to its use, rather than defining
+The unthreaded grip length should be chosen carefully, to be around the same length as the thickness of the material and washers through which the bolt passes
+ An overly long unthreaded length prevents the nut from being tightened down correctly
+ An insufficient unthreaded length results in the threads extending into the hole, and places the dowel shear load onto the threads, which may cause fretting wear on the hole
+ No more than two turns of the thread should be within the hole
+Where a fastener forms its own thread in the component being fastened, it is called a screw
+ This is most obviously so when the thread is tapered (i
+ traditional wood screws), precluding the use of a nut,[2] or when a sheet metal screw or other thread-forming screw is used
+ A screw must always be turned to assemble the joint
+ Many bolts are held fixed in place during assembly, either by a tool or by a design of non-rotating bolt, such as a carriage bolt, and only the corresponding nut is turned
+Bolts use a wide variety of head designs, as do screws
+ These are designed to engage with the tool used to tighten them
+ Some bolt heads instead lock the bolt in place, so that it does not move and a tool is only needed for the nut end
+Common bolt heads include hex, slotted hex washer, and socket cap
+The first bolts had square heads, formed by forging
+ These are still found, although much more common today is the hexagonal head
+ These are held and turned by a spanner or wrench, of which there are many forms
+ Most are held from the side, some from in-line with the bolt
+ Other bolts have T-heads and slotted heads
+ [5]
+Many screws use a screwdriver head fitting, rather than an external wrench
+ Screwdrivers are applied in-line with the fastener, rather than from the side
+ These are smaller than most wrench heads and cannot usually apply the same amount of torque
+ It is sometimes assumed that screwdriver heads imply a screw and wrenches imply a bolt, although this is incorrect
+ Coach screws are large square-headed screws with a tapered wood screw thread, used for attaching ironwork to timber
+Anchor bolt - Bolt designed to allow objects to be attached to concrete
+ The bolt head is usually placed in concrete before it has cured or placed before the concrete is poured, leaving the threaded end exposed
+Arbor bolt - Bolt with a washer permanently attached and reversed threading
+ Designed for use in miter saw and other tools to auto tighten during use to prevent blade fall out
+Carriage bolt - Bolt with a smooth rounded head and a square section to prevent turning followed with a threaded section for a nut
+Elevator bolt - Bolt with a large flat head used in conveyor system setups
+Hanger bolt - Bolt that has no head, machine threaded body followed by a wood threaded screw tip
+ Allow nuts to be attached to what is really a screw
+Hex bolt - Bolt with a hexagonal head and threaded body
+ Section immediately under head may or may not be threaded
+J bolt - Bolt shaped like the letter J
+ Used for tie downs
+ Only the non curved section is threaded for a nut to be attached
+Lag bolt - Also known as lag screw
+ Not a true bolt
+ Hex bolt head with thread screw tip for use in wood
+Rock bolt - Used in tunnel construction to stabilize walls
+Sex bolt or Chicago Bolt - Bolt that has a male and female part with interior threads and bolt heads on either end
+ Commonly used in paper binding
+Shoulder bolt or Stripper bolt - Bolt with a broad smooth shoulder and small threaded end used to create a pivot or attachment point
+U-Bolt - Bolt shaped like the letter U where the two straight sections are threaded
+ A straight metal plate with two bolt holes is used with nuts to hold pipes or other round objects to the U-bolt
+Bolts can come in a wide range of different sizes and shapes, but the basic production process generally remains the same
+ It starts with cold forging steel wire into the right shape, followed by heat treating to improve strength and surface treating to improve durability, before being packed for shipment
+ However, for more advanced bolt designs, the production process can expand by a number of additional steps
+Many threaded fasteners can be described as either screws or bolts, depending on how they are used
+ Bolts are often used to make a bolted joint
+ This is a combination of the nut applying an axial clamping force and also the shank of the bolt acting as a dowel, pinning the joint against sideways shear forces
+Advantages of bolted connection 1
+ Less man power required compared to rivet connection 2
+ High strength bolts are much stronger than the rivets
+ Hence number of fasteners required for bolts are much lesser when compared with rivets
+Bolts with a threaded part in one end and a non-threaded L shaped part on the other
+ Usually found with a washer and a nut
+ Made to be rust-resistant
+Securing light poles, structural beams and to fasten equipment to concrete
+Fully threaded bolts with a smooth head and a square or ribbed undercut that prevents the bolt from turning when tightened
+Fasten metal to wood
+Fasteners with a thin flat or countersunk head and a square undercut that prevents the bolt from turning when tightened
+Elevators and conveyor systems
+Rod shaped fasteners with threads on one end and bent into a loop on another
+Lifting applications such as wire and rope in light rigging
+Washer on the underside of a hex head
+ Helps in distribution of force from the bearing load
+ Also referred to as frame bolts
+Bolts that are fully or partially threaded with six-sided heads
+Broad range of use such as construction and repair of bridges, docks, highway elements and buildings
+One of the toughest fasteners
+ Creates its own thread when it penetrates wood and other soft material
+Connect heavy materials that are bearing extreme loads
+Square heads paired with a semi-cone point and a fully threaded shaft
+Fastens wood to wood, wood to metal and metal to metal
+ Also found in general hardware use
+Also known as shoulder screws
+Consist of a long unthreaded, cylindrical shank that helps rotation of attached moving parts
+hex head bolts but have shorter thread lengths, in order to be used in structural applications
+A bolt made of steel as opposed to one made of aluminium can hugely affect the quality and durability of the joint it forms
+ Other factors such as environmental situations, presence of corrosive components as well as structural stability can alter a material’s effectiveness
+A bolt is a type of threaded hardware fastener that is used to position two workpieces in specific relation to each other
+ Bolts come in several configurations for their application and specification variances
+components that form a bolt can be identified in three sections
+ The head is the part of the bolt with the largest diameter, which provides a mount for tools to either apply or resist torque
+ It also provides part of the bearing surface for substrates being bolted
+ The shank of the bolt is the longest part of the bolt and has external, helical threads on its circumference
+ This piece is responsible for the alignment of the workpieces
+ Finally, the end opposite of the head is known as the chamfer, which provides a slightly beveled edge to aid the bolt's insertion into holes and nuts
+bolt implementation almost always requires a nut to retain components on the bolt's axis
+ Nuts are applied via torque while the bolt itself is held in place, or vice versa
+ Nut position and bolt employment are dependent upon the same physical principles: the friction of the bolt and nut threads against one another, which is comprised of a slight stretch of the bolt from the compression resistance of the components being fastened, and a slight elastic deformation of the parts held together
+this prevents the steel from rusting before the bolt forming begins and lubricates the steel to make forming easier they form the bolts by cold forging shaping the steel at room temperature by forcing it through various dyes at high pressure the forming machine first straightens the wire rod then cuts it into pieces slightly longer than the bolt length
+ the extra will become the bolt head
+ each piece goes through a die that makes it perfectly round then through a series of dies that progressively shape the head of the bolt on one end the machine heads up to 300 bolts per minute
+ this dye creates a slight collar the next one turns it into a round head then the last dye forms that into a hexagonal head the most common shape
+ next the Machine forms the opposite end of the bolt a tool called the pointer shapes the bottom of each bolt creating what's called the chamfer the part the nut catches on
+  the bolt needs threads to enable the nut to screw on to it once again they use the cold forging method high pressure rollers press in the thread pattern
+300 bolts per minute during each production run they take several samples to verify dimensions they use various measuring devices a micrometer to check the bolts length calipers to measure the width of the head and a ring gauge to check the threads to make the nuts they use a process called hot forging they cut steel bars into small pieces known as slugs then heat them to 1,200 degrees Celsius to make them malleable as we see here in slow motion hydraulic hammers punch the slugs into hexagons while a die purses the hole then a tool called a tapper drives into the hole to cut the threads that black liquid is a lubricant oil to minimize the wear and tear on the tappers
+ the nuts and bolts now go into an oven at 870 degrees Celsius for about an hour this gives them the required strength
+ then a rapid cooling in oil for five minutes solidifies the steels internal structure
+ by now the steel is hard but brittle so they heat the nuts and bolts for another hour
+ this removes their brittleness yet maintains their strength
+bolts are used to assemble to unthreaded objects, typically with the use of a nut
+ In comparison, screws are used to assemble objects with threads
+ Here's the thing, though: not all objects in which screws are used already have threads
+Screws are a versatile fastener, which makes them a favorite choice
+ They provide a secure grip thanks to their threads and they meet the needs of numerous do-it-yourself (DIY) projects
+ They come in a variety of sizes and types for wood, metal, drywall and even concrete applications
+Bolts provide the best holding strength compared to screws and other fasteners
+ Thanks to their threads, bolts can provide an unparalleled level of holding power
+ They do require a nut and a washer for their installation
+ The washer helps to spread the load over a larger surface area, which reduces the wear and tear as well as the loosening of your bolt over time while the nut secures the bolt in place
+Like screws, bolts come in many sizes and types
+ They’re also usable with several materials ranging from metal and wood to concrete
+Installing a bolt requires a handheld or pneumatic wrench to remove or install it
+ Compared to screws, bolts can be easier to remove
+ The benefit of a pneumatic wrench is that it provides much more torque than a handheld tool, which makes your job easier
+Having a general understanding of bolts and screws will help you decide when to use bolts instead of screws
+Hex bolts, or hex cap screws, are used in machinery and construction
+ Can be used with a nut, or in a tapped hole
+ Fully threaded hex bolts are also known as tap bolts
+fastener
+rivet
+latch
+tightening pin
+headed rod
+screw
+bar
+coupling
+dowel
+lock
+padlock
+peg
+skewer
+staple element
+stud fastener
+bolts
+flanges
+threaded fasteners
+bolts
+threaded rod
+drywall screws
+tensioner
+weld
+tack welded
+hex nut
+latching mechanism
+hex wrench
+flange
+overtightened
+torque wrench
+fastening
+mandrel
+ferrule
+fastenings
+cartridge valves
+hex nuts
+mandrels
+torque wrenches
+allen wrench
+locking mechanism
+welded
+coupler
+adjustable wrench
+hose clamps
+dowel rod
+bolts washers
+screws bolts
+pintle
+latch
+keyways
+rivet
+flange mount
+thumb screw
+lugnut
+clevis
+flathead screwdriver
+flange bolts
+platens
+Velcro strips
+gripper
+nailers
+washer
+industrial fastener
+threaded joiner
+bolts screws
+hardware fastener
+allen bolt
+threaded joiner
+threaded fixer
+fixer rod
+hex fastener
+hex joiner
+metric screw
+hexagon element
+hexagonal threaded joiner
+m33
+partially threaded fasteners
+allen screw
+hex socket head
+joining tool
+grooved fastener
+helical male thread
+screws without nut
+bolted joint
+slotted hex washer
+socket cap head
+anchor bolt fixers
+steel fastener
+sheet metal screw
+shear force fastener
+locking shaft
+metallic rod fixtures
+drywall screw
+carriage bolt
+thread rolling screw
+tensioner
+weld
+tack welded
+hex nut
+latching mechanism
+hex wrench
+flange
+overtightened
+torque wrench
+fastening
+mandrel
+ferrule
+fastenings
+cartridge valves
+hex nuts
+mandrels
+torque wrenches
+allen wrench
+locking mechanism
