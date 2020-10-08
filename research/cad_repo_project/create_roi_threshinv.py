@@ -1,4 +1,4 @@
-from loader_util.preprocessing import AspectAwarePreprocessor
+# from loader_util.preprocessing import AspectAwarePreprocessor
 from imutils import paths
 from cv2 import cv2
 import progressbar
@@ -12,7 +12,7 @@ imagePaths = list(paths.list_images(sourcePath))
 thresh = 180
 max_val = 255
 target_image_size = 28
-aap = AspectAwarePreprocessor(target_image_size, target_image_size)
+# aap = AspectAwarePreprocessor(target_image_size, target_image_size)
 
 # init the progressbar
 widgets = ["Thresholding..... : ", " ", progressbar.Percentage(),
@@ -21,6 +21,7 @@ pbar = progressbar.ProgressBar(maxval=len(imagePaths), widgets=widgets).start()
 
 for i, path in enumerate(imagePaths):
     # first read the image
+    print(f'[INFO] reading image: {path}.....')
     img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
 
     # get the image category type and create a folder
