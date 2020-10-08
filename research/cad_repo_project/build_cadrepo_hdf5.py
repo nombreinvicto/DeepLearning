@@ -14,7 +14,7 @@ import os
 
 # imagePath = r"C:\Users\mhasa\Google Drive\Tutorial
 # Corner\PYTH\DeepLearning\DeepLearning-DL4CV\ImageDatasets\Unique3DClusters"
-imagePath = r"C:\Users\mhasa\Desktop\mvcnn_gray_roi_32px"
+imagePath = r"dataset_mvcnn_color_roi_retrieve_model_28px1px_255.hdf5"
 dbPath = r"C:\Users\mhasa\Desktop"
 
 # grab paths to training images and then extract train class labels and encode

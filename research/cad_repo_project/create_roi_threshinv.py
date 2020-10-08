@@ -1,18 +1,23 @@
 from loader_util.preprocessing import AspectAwarePreprocessor
 from imutils import paths
 from cv2 import cv2
-import numpy as np
+import progressbar
 import os
 
-sourcePath = r"C:\Users\mhasa\Desktop\mvcnn_reorg"
-targetPath = r"C:\Users\mhasa\Desktop\mvcnn_gray_roi_32px"
+sourcePath = r"C:\Users\mhasa\Desktop\retrieval_models"
+targetPath = r"C:\Users\mhasa\Desktop\retrieval_model_color_roi_28px"
 
 # global variables
 imagePaths = list(paths.list_images(sourcePath))
 thresh = 180
 max_val = 255
-target_image_size = 32
+target_image_size = 28
 aap = AspectAwarePreprocessor(target_image_size, target_image_size)
+
+# init the progressbar
+widgets = ["Thresholding..... : ", " ", progressbar.Percentage(),
+           " ", progressbar.Bar(), " ", progressbar.ETA()]
+pbar = progressbar.ProgressBar(maxval=len(imagePaths), widgets=widgets).start()
 
 for i, path in enumerate(imagePaths):
     # first read the image
@@ -41,10 +46,8 @@ for i, path in enumerate(imagePaths):
                                            cv2.CHAIN_APPROX_NONE)
 
     # then find bounding box ROI
-    #new_image = dst_bin.copy()
+    # new_image = dst_bin.copy()
     new_image = img.copy()
-    print(new_image.shape)
-
     for cnt in contours:
         x, y, w, h = cv2.boundingRect(cnt)
 
@@ -59,5 +62,4 @@ for i, path in enumerate(imagePaths):
         # save the ROI
         cv2.imwrite(f"{destination_folder}//{image_name}", resizedROI)
 
-    print(f'[INFO] Done with image: {i} category: {category_folder}.....')
-    print("=" * 50)
+    pbar.update(i)
