@@ -1,0 +1,16 @@
+venv
+icdret
+*.rar
+*.zip
+*.tar
+*.hdf5
+*.h5
+*.pickle
+*.pt
+*.model
+*.checkpoint
+*.npz
+*.gz
+*.tar.gz
+
+gans/gan_jbl/celeba-dataset

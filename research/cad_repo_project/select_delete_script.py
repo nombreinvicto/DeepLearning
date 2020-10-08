@@ -3,7 +3,7 @@ from imutils import paths
 import os
 
 sourcePath = r"C:\Users\mhasa\Desktop\temp_cad_threshinv"
-targetPath = r"C:\Users\mhasa\Desktop\GAN_threshinClean1\Springs"
+targetPath = r"C:\Users\mhasa\Desktop\mvcnn_thresh_clean\Cylindrical"
 
 imagePaths = list(paths.list_images(sourcePath))
 

@@ -4,24 +4,27 @@ from cv2 import cv2
 import numpy as np
 import os
 
-sourcePath = r"C:\Users\mhasa\Desktop\temp_cad_threshinv"
-targetPath = r"C:\Users\mhasa\Desktop"
-folder_name = os.listdir(sourcePath)[0]
-
-# first create the folder in the target folder
-destination_folder = f"{targetPath}//{folder_name}"
-os.mkdir(destination_folder)
+sourcePath = r"C:\Users\mhasa\Desktop\mvcnn_reorg"
+targetPath = r"C:\Users\mhasa\Desktop\mvcnn_gray_roi_32px"
 
 # global variables
 imagePaths = list(paths.list_images(sourcePath))
-thresh = 210
+thresh = 180
 max_val = 255
-target_image_size = 28
+target_image_size = 32
 aap = AspectAwarePreprocessor(target_image_size, target_image_size)
 
-for path in imagePaths:
+for i, path in enumerate(imagePaths):
     # first read the image
     img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
+
+    # get the image category type and create a folder
+    category_folder = path.split(os.path.sep)[-2]
+
+    # create a folder in destination if it doesnt exist
+    if category_folder not in os.listdir(targetPath):
+        destination_folder = f"{targetPath}//{category_folder}"
+        os.mkdir(destination_folder)
 
     # get the image name
     image_name = path.split(os.sep)[-1]
@@ -38,16 +41,23 @@ for path in imagePaths:
                                            cv2.CHAIN_APPROX_NONE)
 
     # then find bounding box ROI
-    new_image = dst_bin.copy()
+    #new_image = dst_bin.copy()
+    new_image = img.copy()
+    print(new_image.shape)
 
     for cnt in contours:
         x, y, w, h = cv2.boundingRect(cnt)
 
         # extract the ROI
-        roi = new_image[y:y + h, x:x + w]
+        pad = 10
+        roi = new_image[y - pad:y + h + pad, x - pad:x + w + pad]
 
         # resize the ROI
-        resizedROI = aap.preprocess(roi)
+        # resizedROI = aap.preprocess(roi)
+        resizedROI = cv2.resize(roi, (target_image_size, target_image_size))
 
         # save the ROI
-        cv2.imwrite(f"{destination_folder}//{image_name}", roi)
+        cv2.imwrite(f"{destination_folder}//{image_name}", resizedROI)
+
+    print(f'[INFO] Done with image: {i} category: {category_folder}.....')
+    print("=" * 50)
