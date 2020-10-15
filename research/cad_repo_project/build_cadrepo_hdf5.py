@@ -14,7 +14,7 @@ import os
 
 # imagePath = r"C:\Users\mhasa\Google Drive\Tutorial
 # Corner\PYTH\DeepLearning\DeepLearning-DL4CV\ImageDatasets\Unique3DClusters"
-imagePath = r"dataset _mvcnn_color_roi_retrieve_model_28px1px_255.hdf5"
+imagePath = r"C:\Users\mhasa\Desktop\mvcnn_gray_roi_28px"
 dbPath = r"C:\Users\mhasa\Desktop"
 
 # grab paths to training images and then extract train class labels and encode
@@ -32,7 +32,7 @@ class_labels = np.array(le.classes_)
 # perform stratified sampling from train set to construct validation set
 split = train_test_split(trainPaths,
                          trainLabels,
-                         test_size=0.3,
+                         test_size=0.001,
                          stratify=trainLabels,
                          random_state=42)
 trainpaths, testpaths, trainlabels, testlabels = split
@@ -43,16 +43,16 @@ trainpaths, testpaths, trainlabels, testlabels = split
 # construct list pair
 datasets = [
     ('train', trainpaths, trainlabels,
-     f"{dbPath}//train_mvcnn_color_roi_10class_32px1px_255.hdf5"),
+     f"{dbPath}//cgan_mvcnn_color_roi_10class_28px1px.hdf5"),
     ('val', testpaths, testlabels,
-     f"{dbPath}//test_mvcnn_color_roi_10class_32px1px_255.hdf5")
+     f"{dbPath}//cgan_test_mvcnn_color_roi_10class_28px1px.hdf5")
 ]
 # %%
 
 ## Global Variables
 IMAGE_READ_MODE = [cv2.IMREAD_COLOR, cv2.IMREAD_GRAYSCALE]
 
-TARGET_SIZE = 32
+TARGET_SIZE = 28
 CHANNLE_DIM = 1
 IMAGE_READ_INDEX = 1
 
@@ -84,7 +84,7 @@ for dataType, paths, labels, output in datasets:
         image = image.astype('float32')
         image = np.expand_dims(image, axis=-1)
 
-        image = image / 255.0 # dont use for gan sets
+        #image = image / 255.0 # dont use for gan sets
 
         # add the image and label to the HDF5 dataset
         writer.add([image], [label])

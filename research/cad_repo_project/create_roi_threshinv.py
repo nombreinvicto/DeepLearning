@@ -4,8 +4,8 @@ from cv2 import cv2
 import progressbar
 import os
 
-sourcePath = r"C:\Users\mhasa\Desktop\retrieval_models"
-targetPath = r"C:\Users\mhasa\Desktop\retrieval_model_color_roi_28px"
+sourcePath = r"C:\Users\mhasa\Desktop\mvcnn_reorg"
+targetPath = r"C:\Users\mhasa\Desktop\mvcnn_blk_roi_28px"
 
 # global variables
 imagePaths = list(paths.list_images(sourcePath))
@@ -47,8 +47,8 @@ for i, path in enumerate(imagePaths):
                                            cv2.CHAIN_APPROX_NONE)
 
     # then find bounding box ROI
-    # new_image = dst_bin.copy()
-    new_image = img.copy()
+    new_image = dst_bin.copy()
+    #new_image = img.copy()
     for cnt in contours:
         x, y, w, h = cv2.boundingRect(cnt)
 
