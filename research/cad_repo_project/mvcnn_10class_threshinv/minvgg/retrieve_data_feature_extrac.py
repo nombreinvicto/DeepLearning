@@ -37,15 +37,19 @@ labels = le.fit_transform(labels)
 #%%
 print(f'[INFO] loading pretrained model.....')
 loaded_model = load_model(f"{model_dir}//model_mvcnn_color_roi_10class_28px1px_255_minvgg.h5")
-flatten_layer = loaded_model.layers[16]
-retrieval_model = Model(inputs=loaded_model.input, outputs=flatten_layer.output)
+layer_info = {
+    'flatten_3136': 16,
+    'dense_512': 17
+}
+
+last_layer = loaded_model.layers[layer_info['dense_512']]
+retrieval_model = Model(inputs=loaded_model.input, outputs=last_layer.output)
 print(retrieval_model.summary())
-vector_shape = flatten_layer.output.shape[1]
+vector_shape = last_layer.output.shape[1]
 #%%
 # init the hdf5 store for the vectors
 dataset = HDF5DatasetWriter(dims=(len(image_paths), vector_shape),
-                            outputPath=
-                            f"{model_dir}//data_sig_col_roi_28px_255.hdf5",
+                            outputPath=f"{model_dir}//data_sig_col_roi_28px_255_dense_last.hdf5",
                             dataKey="extracted_features",
                             bufSize=32)
 dataset.storeClassLabels(image_names)
