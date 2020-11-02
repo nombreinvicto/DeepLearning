@@ -1,6 +1,7 @@
 # %%
 
 import os
+import sys
 import random
 import json
 import shutil
@@ -10,6 +11,8 @@ import numpy as np
 from imutils import paths
 from sklearn.neighbors import KDTree
 from tensorflow.keras.models import Model, load_model
+from research.cad_repo_project.mvcnn_10class_threshinv.minvgg \
+    .calculate_p_map import calculate_mAP
 
 
 # %%
@@ -105,13 +108,15 @@ kdtree = fit_kdtree(features)
 ## this is where we start all the hanky panky stuff
 print(f'[INFO] initialising variables and directories for MAP '
       f'calculation.....')
-queries = 1000
+queries = 3000
 current_query = 0
 
 # these paths for the p@K and AP values storage files
-result_dir = r"C:\Users\mhasa\Desktop\map_out"
+# result_dir = r"C:\Users\mhasa\Desktop\map_out"
+result_dir = os.getcwd()
 ap_file = f"{result_dir}//avgPrecision.txt"
 pk_json = f"{result_dir}//p_at_k.json"
+relevance_file = f"{result_dir}//relevance.json"
 
 mvcnn_query_image_dir = r"C:\Users\mhasa\Desktop\mvcnn_gray_roi_28px"
 mvcnn_query_pristine_dir = r"C:\Users\mhasa\Desktop\mvcnn_reorg"
@@ -125,14 +130,31 @@ mvcnn_image_paths = list(paths.list_images(mvcnn_query_image_dir))
 unique_cats = np.unique([p.split(os.path.sep)[-2] for p in mvcnn_image_paths])
 mvcnn_image_paths = np.array(mvcnn_image_paths)  # type: np.ndarray
 
+# %%
+print(f'[INFO] checking dump file features.....')
+# lets populate init files if they dont exist
+
 # initialise the json file
 init_dict = {}
 for cat in unique_cats:
     init_dict[cat] = []
 
-# now write this init dict in the json file
-with open(pk_json, mode="w") as json_file:
-    json_file.write(json.dumps(init_dict))
+if not os.path.exists(pk_json):
+    print(f'[INFO] Creating p@K json file.....')
+    # now write this init dict in the json file - only needed when u run file first
+    with open(pk_json, mode="w") as json_file:
+        json_file.write(json.dumps(init_dict))
+
+if not os.path.exists(relevance_file):
+    print(f'[INFO] Creating relevance filter file.....')
+    # now write this init dict in the json file - only needed when u run file first
+    with open(relevance_file, mode="w") as relevance_json:
+        relevance_json.write(json.dumps(init_dict))
+
+if not os.path.exists(ap_file):
+    print(f'[INFO] Creating mAP file.....')
+    with open(ap_file, mode="w") as tempfile:
+        pass
 # %%
 print(f'[INFO] Entering loop.....')
 ## now start the actual routine
@@ -179,13 +201,20 @@ while current_query <= queries:
                      f"{random_chosen_name}")
 
     # as you observe wait for filter input
-    relevance_filter = input(
-        f"Enter Filter for query part {random_chosen_cat}:  ")
-    if relevance_filter == "q":
-        print("Gracefully Exiting .....")
-        break
+    # go into loop unti valid input
+    while True:
+        relevance_filter = input(
+            f"{current_query + 1} Enter Filter for query part {random_chosen_cat}:  ")
 
-    # once relevance filter supplied, delete the images
+        if relevance_filter == "q":
+            print("Gracefully Exiting .....")
+            sys.exit(0)
+        if len(relevance_filter) != 10:
+            print("Invalid Input. Try correct length.....")
+            continue
+        else:
+            break
+            # once relevance filter supplied, delete the images
     images_to_delete = os.listdir(neigh_target_dir)
     for image_file in images_to_delete:
         os.remove(f"{neigh_target_dir}//{image_file}")
@@ -211,6 +240,14 @@ while current_query <= queries:
     AP = round(AP / (ground_truth_positives + 1e-5), 3)
 
     # now purge the values - first the AP value in the text file
+    with open(relevance_file, mode="r+") as relevance_json:
+        stored_dict = json.loads(relevance_json.read())
+        relevance_json.seek(0)
+        relevance_json.truncate()
+        stored_dict[str(random_chosen_cat)]. \
+            append([int(n) for n in filter_nums])
+        relevance_json.write(json.dumps(stored_dict))
+
     with open(ap_file, mode="a") as apfile:
         apfile.write(str(AP) + "\n")
 
@@ -220,7 +257,10 @@ while current_query <= queries:
         jsonfile.truncate()
         stored_dict[str(random_chosen_cat)].append(p_at_k_values)
         jsonfile.write(json.dumps(stored_dict))
-    print(f"Purging done for part: {random_chosen_cat}.....")
 
+    # calculate and print map
+    records, map = calculate_mAP(ap_file)
+    print(f"mAP over {records} records is: {map}")
     current_query += 1
+    print("=" * 50)
 # %%
