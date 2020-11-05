@@ -258,7 +258,7 @@ while current_query <= queries:
         stored_dict[str(random_chosen_cat)].append(p_at_k_values)
         jsonfile.write(json.dumps(stored_dict))
 
-    # calculate and print map
+    # calculate and print map0
     records, map = calculate_mAP(ap_file)
     print(f"mAP over {records} records is: {map}")
     current_query += 1

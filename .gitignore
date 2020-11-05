@@ -13,5 +13,6 @@ icdret
 *.gz
 *.tar.gz
 
+tulip
 gans/gan_jbl/celeba-dataset
 ml/moodring
