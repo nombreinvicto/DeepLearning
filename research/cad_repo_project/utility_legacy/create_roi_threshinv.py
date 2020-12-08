@@ -4,8 +4,8 @@ from cv2 import cv2
 import progressbar
 import os
 
-sourcePath = r"C:\Users\mhasa\Desktop\mvcnn_reorg"
-targetPath = r"C:\Users\mhasa\Desktop\mvcnn_blk_roi_28px"
+sourcePath = r"C:\Users\mhasa\Desktop\paper_shenanigans"
+targetPath = r"C:\Users\mhasa\Desktop"
 
 # global variables
 imagePaths = list(paths.list_images(sourcePath))
@@ -46,16 +46,29 @@ for i, path in enumerate(imagePaths):
                                            cv2.RETR_EXTERNAL,
                                            cv2.CHAIN_APPROX_NONE)
 
+    #################################################################
+    cnt_image = cv2.imread(path)
+    cv2.drawContours(cnt_image.copy(), contours, 0, (0, 255, 0), 6)
+    cv2.imwrite(f"{targetPath}//contoured_image.jpg", cnt_image)
+    #################################################################
     # then find bounding box ROI
     new_image = dst_bin.copy()
-    #new_image = img.copy()
+    # new_image = img.copy()
     for cnt in contours:
         x, y, w, h = cv2.boundingRect(cnt)
 
         # extract the ROI
         pad = 10
         roi = new_image[y - pad:y + h + pad, x - pad:x + w + pad]
+        roi_write = cv2.rectangle(cnt_image.copy(),
+                                  (x, y),
+                                  (x + w, y + h),
+                                  color=(0, 255, 0),
+                                  thickness=6)
 
+        #################################################################
+        cv2.imwrite(f"{targetPath}//roi_img.jpg", roi_write)
+        #################################################################
         # resize the ROI
         # resizedROI = aap.preprocess(roi)
         resizedROI = cv2.resize(roi, (target_image_size, target_image_size))

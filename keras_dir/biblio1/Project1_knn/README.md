@@ -1,7 +1,7 @@
 ### Project 1: KNN Image Classification on Augmented Animals Dataset
 
 <p align="center">
-  <img width="300" height="150" src="dog_cat.JPG">
+  <img width="300" height="150" src="./dog_cat.JPG">
 </p>
 
 Description:

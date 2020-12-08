@@ -2,10 +2,20 @@ from imutils import paths
 import numpy as np
 import progressbar
 from cv2 import cv2
+import seaborn as sns
+import matplotlib.pyplot as plt
 import os
 
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from matplotlib.figure import Figure
+import matplotlib.axes._axes as axes
+sns.set()
+
 #%%
-imagePath = r"C:\Users\mhasa\Desktop\ForActiveAreaDistribution"
+imagePath = r"C:\Users\mhasa\Desktop\mvcnn_reorg"
 trainPaths = list(paths.list_images(imagePath))
 #%%
 
@@ -43,7 +53,9 @@ for i, path in enumerate(trainPaths):
     percent_array[0][i] = percent
 
 #%%
-import seaborn as sns
-sns.distplot(percent_array, hist=True)
+sns.distplot(percent_array, hist=True, color="blue")
+plt.xlabel("Active Area Proportion")
+plt.show()
 #%%
 sns.distplot(shape_array, hist=True)
+plt.show()
