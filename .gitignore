@@ -13,6 +13,6 @@ icdret
 *.gz
 *.tar.gz
 
-tulip
-gans/gan_jbl/celeba-dataset
-ml/moodring
+job_exams
+keras_dir/gans/gan_jbl/celeba-dataset
+side_projects/ml/moodring
