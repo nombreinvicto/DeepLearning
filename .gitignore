@@ -6,6 +6,7 @@ icdret
 *.hdf5
 *.h5
 *.pickle
+*.cpickle
 *.pt
 *.model
 *.checkpoint
