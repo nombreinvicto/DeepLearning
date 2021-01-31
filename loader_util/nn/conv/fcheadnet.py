@@ -10,10 +10,12 @@ class FCHeadNet:
         # then add FC layer
         headModel = baseModel.output
         print("BaseModel Out Shape: ", baseModel.output.shape)
-        headModel = Flatten(name='flatten')(headModel)
+        headModel = Flatten(name='fc_flatten')(headModel)
 
-        for nodes in fc_nodes:
-            headModel = Dense(nodes, activation='relu')(headModel)
+        for i, nodes in enumerate(fc_nodes):
+            headModel = Dense(nodes,
+                              activation='relu',
+                              name=f"dense{i}")(headModel)
             headModel = Dropout(0.5)(headModel)
 
         # add a softmax
