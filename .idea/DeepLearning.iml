@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="DL4CV_INTERPRETER" jdkType="Python SDK" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="DL4CV (venv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="OpenCV" />
+    <orderEntry type="module" module-name="MMT_Projects" />
+    <orderEntry type="module" module-name="PyPlay" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
