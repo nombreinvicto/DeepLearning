@@ -7,8 +7,8 @@
     <orderEntry type="jdk" jdkName="DL4CV (venv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="OpenCV" />
-    <orderEntry type="module" module-name="MMT_Projects" />
     <orderEntry type="module" module-name="PyPlay" />
+    <orderEntry type="module" module-name="MMTDataAnalysis" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
