@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DeepLearning.iml" filepath="$PROJECT_DIR$/.idea/DeepLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GitTutorial/.idea/GitTutorial.iml" filepath="$PROJECT_DIR$/../GitTutorial/.idea/GitTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HomePi/.idea/HomePi.iml" filepath="$PROJECT_DIR$/../HomePi/.idea/HomePi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../DeepLearning/DeepLearning-DL4CV/ImageDatasets/.idea/ImageDatasets.iml" filepath="$PROJECT_DIR$/../../DeepLearning/DeepLearning-DL4CV/ImageDatasets/.idea/ImageDatasets.iml" />
       <module fileurl="file://$PROJECT_DIR$/../MMTDataAnalysis/.idea/MMTDataAnalysis.iml" filepath="$PROJECT_DIR$/../MMTDataAnalysis/.idea/MMTDataAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../OpenCV/.idea/OpenCV.iml" filepath="$PROJECT_DIR$/../OpenCV/.idea/OpenCV.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PyPlay/.idea/PyPlay.iml" filepath="$PROJECT_DIR$/../PyPlay/.idea/PyPlay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../North Carolina State University/Fall_2020/Courses/CollectedStatMaterials/ST 515/ST515/.idea/ST515.iml" filepath="$PROJECT_DIR$/../../../../North Carolina State University/Fall_2020/Courses/CollectedStatMaterials/ST 515/ST515/.idea/ST515.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pureFlask_3JS_Server/.idea/pureFlask_3JS_Server.iml" filepath="$PROJECT_DIR$/../pureFlask_3JS_Server/.idea/pureFlask_3JS_Server.iml" />
     </modules>
   </component>
 </project>

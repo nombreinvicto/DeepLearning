@@ -1,3 +1,4 @@
+.idea
 venv
 icdret
 *.rar
@@ -13,7 +14,10 @@ icdret
 *.npz
 *.gz
 *.tar.gz
+*.msi
+*.exe
 
 job_exams
 keras_dir/gans/gan_jbl/celeba-dataset
 side_projects/ml/moodring
+research/ruet_paper/Final Project Work Folder

@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b2feb2-7756-4de3-9157-3845de57ff61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DeepLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepLearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/side_projects/ml/dis_project/.ipynb_checkpoints/ml_dis_project-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/side_projects/ml/dis_project/.ipynb_checkpoints/ml_dis_project-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/side_projects/ml/dis_project/ml_dis_project.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/side_projects/ml/dis_project/ml_dis_project.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader_util/preprocessing/simplepreprocesor.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader_util/preprocessing/simplepreprocesor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MMTDataAnalysis/p3_strength_prediction_project/ml_modelling/strength_modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../MMTDataAnalysis/p3_strength_prediction_project/ml_modelling/strength_modelling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_app/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_app/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/flask_plg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/flask_server.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/flask_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/16x16-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/16x16-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/32x32-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/32x32-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/32x32.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +49,26 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../MMTDataAnalysis" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ac6021f8-7b96-417c-887e-3f98d9b9fe51" />
+        <option name="url" value="https://github.com/nombreinvicto/pureFlask_3JS_server_work.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="HomePi/invalid/Fusion 360 Support" />
+      <facet id="ST515/invalid/Fusion 360 Support" />
+      <facet id="pureFlask_3JS_Server/invalid/Fusion 360 Support" />
+    </ignored-facets>
   </component>
   <component name="ProjectId" id="1oDpDkeQlvMlPPVTK21KdiYTF5m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -55,39 +82,75 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ChangesTree.GroupingKeys" value="repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210512_0001" />
+    <property name="credentialsType com.jetbrains.python.remote.PyCreateRemoteInterpreterDialog$PyCreateRemoteSdkForm" value="Web Deployment" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MMTDataAnalysis/p1_material_removal/scratch" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.5" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.37" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HomePi" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="DeepLearning" sdk-home="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\DeepLearning\venv\Scripts\python.exe" working-directory="$PROJECT_DIR$">
+        <option name="mySdkHome" value="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\DeepLearning\venv\Scripts\python.exe" />
+        <option name="myModuleName" value="DeepLearning" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p1_material_removal\scratch" />
-      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p1_material_removal\output" />
+      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\PyPlay\DeepDive\dd1" />
+      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p3_strength_prediction_project" />
+      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p3_strength_prediction_project\ml_modelling" />
+      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\DeepLearning\research\ruet_paper" />
+      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p6_end_of_year_report" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p6_end_of_year_report" />
+      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p6_end_of_year_report\samples" />
+      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p1_material_removal\output" />
       <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p1_material_removal\scratch" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MMTDataAnalysis" />
+  <component name="RunManager" selected="Python.all_playg">
+    <configuration name="all_playg_js.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../PyPlay/JSPlay/all_playg_js.js" working-dir="$PROJECT_DIR$/../PyPlay/JSPlay">
+      <method v="2" />
+    </configuration>
+    <configuration name="all_playg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyPlay" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MMTDataAnalysis/p1_material_removal" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PyPlay" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MMTDataAnalysis/p1_material_removal/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PyPlay/all_playg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,20 +159,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MMTDataAnalysis" />
+    <configuration name="ddive_sec2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyPlay" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../MMTDataAnalysis/material_removal" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PyPlay/DeepDive/dd1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../MMTDataAnalysis/material_removal/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PyPlay/DeepDive/dd1/ddive_sec2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ledTrial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomePi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HomePi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HomePi/ledTrial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HomePi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HomePi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HomePi/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,13 +226,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Node.js.all_playg_js.js" />
+      <item itemvalue="Python.all_playg" />
+      <item itemvalue="Python.ddive_sec2" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.ledTrial" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.all_playg" />
+        <item itemvalue="Python.ledTrial" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.ddive_sec2" />
+        <item itemvalue="Node.js.all_playg_js.js" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +256,104 @@
       <workItem from="1612890352019" duration="4726000" />
       <workItem from="1612904909453" duration="4400000" />
       <workItem from="1612910318880" duration="20874000" />
-      <workItem from="1612966208747" duration="31397000" />
+      <workItem from="1612966208747" duration="32675000" />
+      <workItem from="1613054211865" duration="22227000" />
+      <workItem from="1613095363583" duration="7371000" />
+      <workItem from="1613141976726" duration="11329000" />
+      <workItem from="1613246949288" duration="2014000" />
+      <workItem from="1613263643516" duration="11811000" />
+      <workItem from="1613311962931" duration="10444000" />
+      <workItem from="1613404362280" duration="3687000" />
+      <workItem from="1613484697350" duration="1261000" />
+      <workItem from="1613496896076" duration="3606000" />
+      <workItem from="1613504176005" duration="3135000" />
+      <workItem from="1613517554775" duration="4279000" />
+      <workItem from="1613570315585" duration="2824000" />
+      <workItem from="1613579169845" duration="869000" />
+      <workItem from="1613593820239" duration="741000" />
+      <workItem from="1613594685351" duration="6198000" />
+      <workItem from="1613632342193" duration="1465000" />
+      <workItem from="1613674457750" duration="18420000" />
+      <workItem from="1613700690005" duration="2461000" />
+      <workItem from="1613746375916" duration="4210000" />
+      <workItem from="1613861453287" duration="1906000" />
+      <workItem from="1613943796930" duration="1805000" />
+      <workItem from="1614002040667" duration="3117000" />
+      <workItem from="1614036286946" duration="5412000" />
+      <workItem from="1614052577280" duration="10646000" />
+      <workItem from="1614178583535" duration="35552000" />
+      <workItem from="1614258612636" duration="9604000" />
+      <workItem from="1614350774299" duration="7599000" />
+      <workItem from="1614449696088" duration="1834000" />
+      <workItem from="1614611446419" duration="2830000" />
+      <workItem from="1614678154171" duration="52000" />
+      <workItem from="1614678274942" duration="6304000" />
+      <workItem from="1614783887370" duration="3954000" />
+      <workItem from="1614866963215" duration="3299000" />
+      <workItem from="1614952316048" duration="5343000" />
+      <workItem from="1615059954774" duration="2422000" />
+      <workItem from="1615139992320" duration="2827000" />
+      <workItem from="1615213496343" duration="3313000" />
+      <workItem from="1615301773438" duration="4262000" />
+      <workItem from="1615387757367" duration="3787000" />
+      <workItem from="1615481076490" duration="13623000" />
+      <workItem from="1615652075376" duration="5522000" />
+      <workItem from="1615826607246" duration="2806000" />
+      <workItem from="1615998588724" duration="3203000" />
+      <workItem from="1616003402597" duration="3962000" />
+      <workItem from="1616080741294" duration="1011000" />
+      <workItem from="1616161232954" duration="9927000" />
+      <workItem from="1616201272692" duration="4224000" />
+      <workItem from="1616277056514" duration="4970000" />
+      <workItem from="1616358532395" duration="4659000" />
+      <workItem from="1616416601871" duration="53255000" />
+      <workItem from="1616611569643" duration="7869000" />
+      <workItem from="1616635740264" duration="40531000" />
+      <workItem from="1616765018761" duration="6709000" />
+      <workItem from="1616786087581" duration="5589000" />
+      <workItem from="1616863470089" duration="30175000" />
+      <workItem from="1617199053933" duration="3809000" />
+      <workItem from="1617286721432" duration="622000" />
+      <workItem from="1617293870432" duration="10241000" />
+      <workItem from="1617461278178" duration="8825000" />
+      <workItem from="1617630453517" duration="6691000" />
+      <workItem from="1617793879062" duration="4100000" />
+      <workItem from="1617810883178" duration="1791000" />
+      <workItem from="1617813920734" duration="612000" />
+      <workItem from="1617815389116" duration="3044000" />
+      <workItem from="1617829515557" duration="3135000" />
+      <workItem from="1617845783891" duration="3304000" />
+      <workItem from="1617886391196" duration="14834000" />
+      <workItem from="1617976995075" duration="6463000" />
+      <workItem from="1618143836777" duration="5822000" />
+      <workItem from="1618232872028" duration="5348000" />
+      <workItem from="1618329025823" duration="3064000" />
+      <workItem from="1618412950656" duration="5161000" />
+      <workItem from="1618474096026" duration="818000" />
+      <workItem from="1618503551128" duration="4509000" />
+      <workItem from="1618681191756" duration="3617000" />
+      <workItem from="1618844117893" duration="593000" />
+      <workItem from="1618929620864" duration="1220000" />
+      <workItem from="1618974206358" duration="6356000" />
+      <workItem from="1619148092965" duration="1642000" />
+      <workItem from="1619193926659" duration="43368000" />
+      <workItem from="1619308430141" duration="2070000" />
+      <workItem from="1619382189266" duration="2739000" />
+      <workItem from="1619447362396" duration="4618000" />
+      <workItem from="1619532520536" duration="1183000" />
+      <workItem from="1619538135265" duration="8908000" />
+      <workItem from="1619803251979" duration="3373000" />
+      <workItem from="1619901404687" duration="5032000" />
+      <workItem from="1619957538221" duration="1196000" />
+      <workItem from="1619992273430" duration="13743000" />
+      <workItem from="1620114328109" duration="3029000" />
+      <workItem from="1620191005382" duration="9815000" />
+      <workItem from="1620265281797" duration="11296000" />
+      <workItem from="1620318181272" duration="2979000" />
+      <workItem from="1620378052441" duration="2930000" />
+      <workItem from="1620452594818" duration="40362000" />
+      <workItem from="1620849945376" duration="1548000" />
+      <workItem from="1620854046981" duration="8485000" />
     </task>
     <servers />
   </component>
@@ -155,15 +365,105 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="SHOW_DETAILS_IN_CHANGES" value="false" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="85" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="84" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="f7627881-972d-4cb9-93b3-4a08ecedab2f">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/../GitTutorial/yesterday-exercise" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="ABBA" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../GitTutorial/Branching/PlayList" />
+      <path value="$PROJECT_DIR$/../GitTutorial/yesterday-exercise" />
+      <path value="$PROJECT_DIR$/../GitTutorial/HubPractice" />
+    </ignored-roots>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeepLearning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1613019073806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p1_material_removal" />
+    <SUITE FILE_PATH="coverage/DeepLearning$p6_main_2020.coverage" NAME="p6_main_2020 Coverage Results" MODIFIED="1614226336114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p5_vintage_grade_analysis" />
+    <SUITE FILE_PATH="coverage/DeepLearning$test.coverage" NAME="test Coverage Results" MODIFIED="1620279071761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../HomePi" />
+    <SUITE FILE_PATH="coverage/DeepLearning$create_dataset.coverage" NAME="create_dataset Coverage Results" MODIFIED="1617054389081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p3_strength_prediction_project" />
+    <SUITE FILE_PATH="coverage/DeepLearning$all_playg.coverage" NAME="all_playg Coverage Results" MODIFIED="1620886193789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyPlay" />
     <SUITE FILE_PATH="coverage/DeepLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1612908589999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/material_removal" />
+    <SUITE FILE_PATH="coverage/DeepLearning$ml_inference.coverage" NAME="ml_inference Coverage Results" MODIFIED="1617930409983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p2_matlab_python_bridge_test" />
+    <SUITE FILE_PATH="coverage/DeepLearning$ddive_sec2.coverage" NAME="ddive_sec2 Coverage Results" MODIFIED="1619828921124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyPlay/DeepDive/dd1" />
+    <SUITE FILE_PATH="coverage/DeepLearning$train_flowers17.coverage" NAME="train_flowers17 Coverage Results" MODIFIED="1613272536974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/side_projects/ml/model_matlab" />
+    <SUITE FILE_PATH="coverage/DeepLearning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1613080206762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p1_material_removal" />
+    <SUITE FILE_PATH="coverage/DeepLearning$main_test.coverage" NAME="main_test Coverage Results" MODIFIED="1616731728198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p3_matlab_to_python_ml" />
+    <SUITE FILE_PATH="coverage/DeepLearning$find_processed_logs.coverage" NAME="find_processed_logs Coverage Results" MODIFIED="1613688266177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p3_matlab_to_python_ml/loader_utils" />
+    <SUITE FILE_PATH="coverage/DeepLearning$ledTrial.coverage" NAME="ledTrial Coverage Results" MODIFIED="1620510419810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../HomePi" />
   </component>
 </project>

@@ -14,3 +14,6 @@ class SimplePreProcessor:
                           (self.width,
                            self.height),
                           interpolation=self.inter)
+
+
+

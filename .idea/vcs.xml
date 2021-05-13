@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../MMTDataAnalysis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../OpenCV" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../pureFlask_3JS_Server" vcs="Git" />
   </component>
 </project>

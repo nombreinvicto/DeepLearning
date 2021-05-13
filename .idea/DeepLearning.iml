@@ -9,6 +9,11 @@
     <orderEntry type="module" module-name="OpenCV" />
     <orderEntry type="module" module-name="PyPlay" />
     <orderEntry type="module" module-name="MMTDataAnalysis" />
+    <orderEntry type="module" module-name="HomePi" />
+    <orderEntry type="module" module-name="pureFlask_3JS_Server" />
+    <orderEntry type="module" module-name="ImageDatasets" />
+    <orderEntry type="module" module-name="ST515" />
+    <orderEntry type="module" module-name="GitTutorial" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
