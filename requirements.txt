@@ -12,7 +12,7 @@ seaborn==0.11.1
 torchvision==0.8.2+cpu
 requests==2.25.1
 imutils==0.5.4
-tensorflow==2.0.0
+tensorflow==2.4.0
 Flask_Cors==3.0.10
 gensim==3.8.3
 keras==2.4.3
