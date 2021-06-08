@@ -18,7 +18,7 @@ gensim==3.8.3
 keras==2.4.3
 Mako==1.1.4
 mosspy==1.0.8
-Pillow==8.1.0
+Pillow==8.2.0
 progressbar33==2.4
 PyGithub==1.54.1
 scikit_learn==0.24.1
