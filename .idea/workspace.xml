@@ -4,22 +4,11 @@
     <list default="true" id="a0b2feb2-7756-4de3-9157-3845de57ff61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DeepLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loader_util/preprocessing/simplepreprocesor.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader_util/preprocessing/simplepreprocesor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MMTDataAnalysis/p3_strength_prediction_project/ml_modelling/strength_modelling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../MMTDataAnalysis/p3_strength_prediction_project/ml_modelling/strength_modelling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_app/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_app/templates/layout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/flask_plg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/flask_server.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/flask_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/16x16-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/16x16-disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/32x32-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/32x32-disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pureFlask_3JS_Server/flask_server/resources/32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_exams/mmt_coding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/job_exams/mmt_coding.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +38,21 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../GitTutorial/PRRequests" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -62,6 +64,12 @@
         <option name="url" value="https://github.com/nombreinvicto/pureFlask_3JS_server_work.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../PyPlay/account_balance.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../PyPlay/sql_practice/general_quer.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../PyPlay/JSPlay/all_playg_js.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../PyPlay/sql_practice/books_data.sql" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
@@ -83,6 +91,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="repository" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunConfigurationTargetLRU" value="91308d0c-647e-45c4-b1f0-418cd5fdfeca&#10;91308d0c-647e-45c4-b1f0-418cd5fdfeca/schema/&quot;practice&quot;" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -93,12 +103,13 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210512_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210522_0000" />
     <property name="credentialsType com.jetbrains.python.remote.PyCreateRemoteInterpreterDialog$PyCreateRemoteSdkForm" value="Web Deployment" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.5" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.37" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HomePi" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PyPlay/sql_practice" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -106,7 +117,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -120,11 +131,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\PyPlay\sql_practice" />
       <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\PyPlay\DeepDive\dd1" />
+      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\PyPlay" />
       <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p3_strength_prediction_project" />
       <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p3_strength_prediction_project\ml_modelling" />
-      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\DeepLearning\research\ruet_paper" />
-      <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p6_end_of_year_report" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p6_end_of_year_report" />
@@ -133,8 +144,57 @@
       <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p1_material_removal\scratch" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.all_playg">
+  <component name="RunManager" selected="Python.account_balance">
+    <configuration name="general_quer.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/../PyPlay/sql_practice/general_quer.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration name="all_playg_js.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../PyPlay/JSPlay/all_playg_js.js" working-dir="$PROJECT_DIR$/../PyPlay/JSPlay">
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DeepLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="account_balance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyPlay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PyPlay" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PyPlay/account_balance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="all_playg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -159,86 +219,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ddive_sec2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyPlay" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../PyPlay/DeepDive/dd1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../PyPlay/DeepDive/dd1/ddive_sec2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ledTrial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HomePi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HomePi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HomePi/ledTrial.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="HomePi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../HomePi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../HomePi/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Database Script.general_quer.sql" />
       <item itemvalue="Node.js.all_playg_js.js" />
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.account_balance" />
       <item itemvalue="Python.all_playg" />
-      <item itemvalue="Python.ddive_sec2" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.ledTrial" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.all_playg" />
-        <item itemvalue="Python.ledTrial" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.ddive_sec2" />
+        <item itemvalue="Python.account_balance" />
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Node.js.all_playg_js.js" />
+        <item itemvalue="Database Script.general_quer.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +347,36 @@
       <workItem from="1620378052441" duration="2930000" />
       <workItem from="1620452594818" duration="40362000" />
       <workItem from="1620849945376" duration="1548000" />
-      <workItem from="1620854046981" duration="8485000" />
+      <workItem from="1620854046981" duration="14590000" />
+      <workItem from="1620981949730" duration="798000" />
+      <workItem from="1620985332920" duration="2355000" />
+      <workItem from="1621025120934" duration="10695000" />
+      <workItem from="1621132373269" duration="10632000" />
+      <workItem from="1621258361745" duration="11810000" />
+      <workItem from="1621386455387" duration="1372000" />
+      <workItem from="1621387955075" duration="7662000" />
+      <workItem from="1621423164650" duration="8901000" />
+      <workItem from="1621547073476" duration="7661000" />
+      <workItem from="1621681365124" duration="14546000" />
+      <workItem from="1621840353933" duration="205000" />
+      <workItem from="1621840672824" duration="723000" />
+      <workItem from="1621843378870" duration="332000" />
+      <workItem from="1621843933240" duration="12163000" />
+      <workItem from="1621926392424" duration="3957000" />
+      <workItem from="1621995548939" duration="13000" />
+      <workItem from="1621995610773" duration="12780000" />
+      <workItem from="1622195783169" duration="2249000" />
+      <workItem from="1622225993771" duration="16267000" />
+      <workItem from="1622348406113" duration="1271000" />
+      <workItem from="1622392654845" duration="5574000" />
+      <workItem from="1622502265343" duration="23602000" />
+      <workItem from="1622676172792" duration="1471000" />
+      <workItem from="1622718188960" duration="5293000" />
+      <workItem from="1622855554266" duration="15195000" />
+      <workItem from="1623026988378" duration="7481000" />
+      <workItem from="1623065814001" duration="1897000" />
+      <workItem from="1623114651147" duration="2031000" />
+      <workItem from="1623158351304" duration="2641000" />
     </task>
     <servers />
   </component>
@@ -372,7 +395,7 @@
                   <entry key="roots">
                     <value>
                       <list>
-                        <option value="$PROJECT_DIR$" />
+                        <option value="$PROJECT_DIR$/../GitTutorial/PRRequests" />
                       </list>
                     </value>
                   </entry>
@@ -450,20 +473,24 @@
       <path value="$PROJECT_DIR$/../GitTutorial/Branching/PlayList" />
       <path value="$PROJECT_DIR$/../GitTutorial/yesterday-exercise" />
       <path value="$PROJECT_DIR$/../GitTutorial/HubPractice" />
+      <path value="$PROJECT_DIR$/../GitTutorial/PRRequests" />
+      <path value="$PROJECT_DIR$/training-data-analyst" />
+      <path value="$PROJECT_DIR$/side_projects/deep-learning-v2-pytorch" />
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DeepLearning$account_balance.coverage" NAME="account_balance Coverage Results" MODIFIED="1623044989028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyPlay" />
     <SUITE FILE_PATH="coverage/DeepLearning$p6_main_2020.coverage" NAME="p6_main_2020 Coverage Results" MODIFIED="1614226336114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p5_vintage_grade_analysis" />
-    <SUITE FILE_PATH="coverage/DeepLearning$test.coverage" NAME="test Coverage Results" MODIFIED="1620279071761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../HomePi" />
     <SUITE FILE_PATH="coverage/DeepLearning$create_dataset.coverage" NAME="create_dataset Coverage Results" MODIFIED="1617054389081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p3_strength_prediction_project" />
-    <SUITE FILE_PATH="coverage/DeepLearning$all_playg.coverage" NAME="all_playg Coverage Results" MODIFIED="1620886193789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyPlay" />
     <SUITE FILE_PATH="coverage/DeepLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1612908589999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/material_removal" />
     <SUITE FILE_PATH="coverage/DeepLearning$ml_inference.coverage" NAME="ml_inference Coverage Results" MODIFIED="1617930409983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p2_matlab_python_bridge_test" />
     <SUITE FILE_PATH="coverage/DeepLearning$ddive_sec2.coverage" NAME="ddive_sec2 Coverage Results" MODIFIED="1619828921124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyPlay/DeepDive/dd1" />
-    <SUITE FILE_PATH="coverage/DeepLearning$train_flowers17.coverage" NAME="train_flowers17 Coverage Results" MODIFIED="1613272536974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/side_projects/ml/model_matlab" />
     <SUITE FILE_PATH="coverage/DeepLearning$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1613080206762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p1_material_removal" />
     <SUITE FILE_PATH="coverage/DeepLearning$main_test.coverage" NAME="main_test Coverage Results" MODIFIED="1616731728198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p3_matlab_to_python_ml" />
     <SUITE FILE_PATH="coverage/DeepLearning$find_processed_logs.coverage" NAME="find_processed_logs Coverage Results" MODIFIED="1613688266177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../MMTDataAnalysis/p3_matlab_to_python_ml/loader_utils" />
+    <SUITE FILE_PATH="coverage/DeepLearning$test.coverage" NAME="test Coverage Results" MODIFIED="1620279071761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../HomePi" />
+    <SUITE FILE_PATH="coverage/DeepLearning$all_playg.coverage" NAME="all_playg Coverage Results" MODIFIED="1623025741960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyPlay" />
+    <SUITE FILE_PATH="coverage/DeepLearning$train_flowers17.coverage" NAME="train_flowers17 Coverage Results" MODIFIED="1613272536974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/side_projects/ml/model_matlab" />
     <SUITE FILE_PATH="coverage/DeepLearning$ledTrial.coverage" NAME="ledTrial Coverage Results" MODIFIED="1620510419810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../HomePi" />
   </component>
 </project>
