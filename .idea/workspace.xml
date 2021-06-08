@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b2feb2-7756-4de3-9157-3845de57ff61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/side_projects/deep-learning-v2-pytorch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/side_projects/training-data-analyst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DeepLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepLearning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job_exams/mmt_coding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/job_exams/mmt_coding.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,7 +373,7 @@
       <workItem from="1623026988378" duration="7481000" />
       <workItem from="1623065814001" duration="1897000" />
       <workItem from="1623114651147" duration="2031000" />
-      <workItem from="1623158351304" duration="2641000" />
+      <workItem from="1623158351304" duration="4088000" />
     </task>
     <servers />
   </component>
