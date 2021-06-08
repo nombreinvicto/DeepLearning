@@ -141,7 +141,7 @@
       <recent name="C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\MMTDataAnalysis\p1_material_removal\scratch" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.account_balance">
+  <component name="RunManager" selected="Python.all_playg">
     <configuration name="general_quer.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/../PyPlay/sql_practice/general_quer.sql" />
       <script-mode>FILE</script-mode>
@@ -374,6 +374,7 @@
       <workItem from="1623065814001" duration="1897000" />
       <workItem from="1623114651147" duration="2031000" />
       <workItem from="1623158351304" duration="4768000" />
+      <workItem from="1623171612507" duration="903000" />
     </task>
     <servers />
   </component>
