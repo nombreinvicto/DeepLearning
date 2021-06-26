@@ -12,4 +12,5 @@ class PatchPreprocessor:
         random_crops = extract_patches_2d(image,
                                           patch_size=(self.height, self.width),
                                           max_patches=1)
+
         return random_crops[0]

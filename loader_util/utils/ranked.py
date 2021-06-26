@@ -2,7 +2,9 @@
 import numpy as np
 
 
-def rank5_accuracy(preds, labels):
+def rank5_accuracy(preds,  # probabilities of a batch, e.g from model.predict()
+                   labels  # ground truth labels e.g LabelEncoded labels
+                   ):
     # init the vars
     rank1 = 0
     rank5 = 0

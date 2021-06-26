@@ -3,6 +3,7 @@ import imutils
 import numpy as np
 from cv2 import cv2
 
+
 class AspectAwarePreprocessor:
     def __init__(self, width, height, inter=cv2.INTER_AREA):
         self.width = width

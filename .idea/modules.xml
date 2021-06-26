@@ -3,11 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DeepLearning.iml" filepath="$PROJECT_DIR$/.idea/DeepLearning.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../GitTutorial/.idea/GitTutorial.iml" filepath="$PROJECT_DIR$/../GitTutorial/.idea/GitTutorial.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../HomePi/.idea/HomePi.iml" filepath="$PROJECT_DIR$/../HomePi/.idea/HomePi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../DeepLearning/DeepLearning-DL4CV/ImageDatasets/.idea/ImageDatasets.iml" filepath="$PROJECT_DIR$/../../DeepLearning/DeepLearning-DL4CV/ImageDatasets/.idea/ImageDatasets.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../PyPlay/.idea/PyPlay.iml" filepath="$PROJECT_DIR$/../PyPlay/.idea/PyPlay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../../North Carolina State University/Fall_2020/Courses/CollectedStatMaterials/ST 515/ST515/.idea/ST515.iml" filepath="$PROJECT_DIR$/../../../../North Carolina State University/Fall_2020/Courses/CollectedStatMaterials/ST 515/ST515/.idea/ST515.iml" />
     </modules>
   </component>
 </project>
