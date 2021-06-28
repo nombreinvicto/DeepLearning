@@ -4,10 +4,8 @@ from tensorflow.keras.callbacks import BaseLogger
 import numpy as np
 import json
 import os
-import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import matplotlib.axes._axes as axes
 
 sns.set()
 

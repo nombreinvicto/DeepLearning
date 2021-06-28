@@ -1,14 +1,16 @@
-from sklearn.feature_extraction.image import extract_patches_2d
-import matplotlib.pyplot as plt
-from cv2 import cv2
+from loader_util.io import HDF5DatasetGenerator
 
-path = r"C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\PyCharm Projects\PyPlay\sample_image.JPG"
+test_path = r"C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\DeepLearning\DeepLearning-DL4CV\ImageDatasets\all_cats_dogs\hdf5\test.hdf5"
+# reinit the test set generator for crop preprocessing
+testgen = HDF5DatasetGenerator(test_path,
+                               batchSize=64,
+                               classes=2,)
 
-image = cv2.imread(path)
-plt.imshow(image[:, :, ::-1])
-plt.show()
-# %%
+print(f"[INFO] total images = {testgen.numImages}......")
 
-random_crops = extract_patches_2d(image, max_patches=3, patch_size=(100,100))
-#%%
-
+i = 0
+for images, labels in testgen.generator():
+    print(i, images.shape)
+    print(images[0].mean())
+    i += 1
+    print("=" * 50)

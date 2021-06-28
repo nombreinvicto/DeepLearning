@@ -13,4 +13,5 @@ class PatchPreprocessor:
                                           patch_size=(self.height, self.width),
                                           max_patches=1)
 
+        # returns only 1 image or patch
         return random_crops[0]

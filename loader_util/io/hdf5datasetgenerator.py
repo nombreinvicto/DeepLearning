@@ -25,8 +25,10 @@ class HDF5DatasetGenerator:
         # keep looping infinitle - the model will stop once we have reached
         # desired number of epochs
         while epochs < passes:
-            # loop over the dataset
+            # loop over the dataset. if passe = infinite then this for loop
+            # will run forever - please check page 124 of DL4CV PB
             for i in range(0, self.numImages, self.batchSize):
+                print(f"[INFO] i from generator = {i}......")
                 # extract images and labels
                 images = self.db['images'][i:i + self.batchSize]
                 labels = self.db['labels'][i:i + self.batchSize]
