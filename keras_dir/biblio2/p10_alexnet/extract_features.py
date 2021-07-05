@@ -11,7 +11,7 @@ import progressbar
 import random
 import os
 
-# %%
+#%%
 
 dataset = r"C:\Users\mhasa\Google Drive\Tutorial " \
           r"Corner\PYTH\DeepLearning\DeepLearning-DL4CV\ImageDatasets\all_cats_dogs\train"
@@ -20,12 +20,12 @@ output = r"C:\Users\mhasa\Google Drive\Tutorial " \
          r"\all_cats_dogs\hdf5\extracted_features.hdf5"
 batch_size = 16
 buffer_size = 1000
-# %%
+#%%
 
 print(f"[INFO] loading images......")
 image_paths = list(paths.list_images(dataset))
 random.shuffle(image_paths)
-# %%
+#%%
 
 # extract the class labels
 labels = [pt.split(os.path.sep)[-1].split(".")[0] for pt in image_paths]
@@ -34,7 +34,7 @@ unique_labels = np.unique(labels)
 # encode the labels
 le = LabelEncoder()
 encoded_labels = le.fit_transform(labels)
-# %%
+#%%
 
 print(f"[INFO] loading network......")
 model = ResNet50(weights="imagenet", include_top=False)  # type: Model
@@ -43,7 +43,7 @@ model = ResNet50(weights="imagenet", include_top=False)  # type: Model
 dataset_writer = HDF5DatasetWriter(dims=(len(image_paths), 7 * 7 * 2048),
                                    outputPath=output,
                                    bufSize=buffer_size)
-# %%
+#%%
 
 # init the progressbar
 # initialize the progress bar
@@ -73,8 +73,10 @@ for i in range(0, len(image_paths), batch_size):
 
     # add the batch of features to the dataset
     dataset_writer.add(features, batch_labels)
+    print(i)
     pbar.update(i)
 
 # close the dataset
 pbar.finish()
+dataset_writer.close()
 #%%
