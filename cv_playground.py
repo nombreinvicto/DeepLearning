@@ -1,16 +1,23 @@
-from loader_util.io import HDF5DatasetGenerator
+import torch
+from loader_util.nn.conv import LeNetTorch
+from torchsummary import summary
 
-test_path = r"C:\Users\mhasa\Google Drive\Tutorial Corner\PYTH\DeepLearning\DeepLearning-DL4CV\ImageDatasets\all_cats_dogs\hdf5\test.hdf5"
-# reinit the test set generator for crop preprocessing
-testgen = HDF5DatasetGenerator(test_path,
-                               batchSize=64,
-                               classes=2,)
+model = LeNetTorch(classes=50)
+summary(model, input_size=(3, 224, 224))
 
-print(f"[INFO] total images = {testgen.numImages}......")
+import numpy as np
+# %%
+from functools import reduce
+def apply_to_layer(layer):
+    if isinstance(layer, torch.nn.Conv2d):
+        n = reduce(lambda x, y: x * y, layer.weight.shape)
+    elif isinstance(layer, torch.nn.Linear):
+        n = layer.in_features
+    else:
+        return
+    y = 1.0 / (np.sqrt(n))
+    torch.nn.init.normal_(layer.weight, mean=0, std=y)
 
-i = 0
-for images, labels in testgen.generator():
-    print(i, images.shape)
-    print(images[0].mean())
-    i += 1
-    print("=" * 50)
+
+# %%
+model.apply(apply_to_layer)

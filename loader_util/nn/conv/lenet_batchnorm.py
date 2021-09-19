@@ -47,4 +47,6 @@ class LeNetBatchNorm:
         model.add(Dense(classes))
         model.add(Activation("softmax"))
 
+        raise Exception("this is my cutom exception")
+
         return model
