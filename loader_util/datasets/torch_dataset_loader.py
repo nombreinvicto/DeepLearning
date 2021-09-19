@@ -9,13 +9,10 @@ class CustomTorchDataset(Dataset):
     def __init__(self, pathList: List, tranforms):
         super(CustomTorchDataset, self).__init__()
         if not isinstance(pathList, list):
-            raise TypeError(
-                "Supplied pathList is not a valid list im image paths")
+            raise TypeError("Supplied pathList is not a valid list im image paths")
         self.pathList = np.random.permutation(pathList)
-        self.classes = sorted(list(np.unique([d.split(os.path.sep)[-2]
-                                              for d in self.pathList])))
-        self.class_to_idx = \
-            {self.classes[i]: i for i in range(len(self.classes))}
+        self.classes = sorted(list(np.unique([d.split(os.path.sep)[-2] for d in self.pathList])))
+        self.class_to_idx = {self.classes[i]: i for i in range(len(self.classes))}
         self.transforms = tranforms
 
     def __len__(self):
