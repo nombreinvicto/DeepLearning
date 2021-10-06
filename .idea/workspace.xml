@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd28bccd-b8f6-42cd-be22-53387d12ee99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loader_util/datasets/torch_dataset_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader_util/datasets/torch_dataset_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv_playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv_playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader_util/nn/conv/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader_util/nn/conv/resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torch_dir/misc_dir/P2_CellTypeDetection/cellTypeDetection_torch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/torch_dir/misc_dir/P2_CellTypeDetection/cellTypeDetection_torch.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torch_dir/pytorch_stepbystep_exercise/1_vis_gradient_descent.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="BashSupport Pro Bash" />
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -86,10 +90,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/torch_dir" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Py_Play" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -102,19 +111,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mhasa\PycharmProjects\Py_Play" />
       <recent name="C:\Users\mhasa\PycharmProjects\DL4CV\torch_dir" />
       <recent name="C:\Users\mhasa\PycharmProjects\DL4CV\side_projects\dlnd" />
       <recent name="C:\Users\mhasa\PycharmProjects\DL4CV" />
       <recent name="C:\Users\mhasa\PycharmProjects\GCP_Projects\dataflow\data_dir" />
-      <recent name="C:\Users\mhasa\PycharmProjects\Py_Play\mlops" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mhasa\PycharmProjects\Py_Play" />
       <recent name="C:\Users\mhasa\PycharmProjects\DL4CV\side_projects" />
       <recent name="C:\Users\mhasa\PycharmProjects\DL4CV\torch_dir" />
       <recent name="C:\Users\mhasa\PycharmProjects\GCP_Projects\pubsub" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.account_balance">
+  <component name="RunManager" selected="Python.resnet">
     <configuration name="account_balance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py_Play" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,20 +147,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Py_Play" />
+    <configuration name="download_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="building-machine-learning-pipelines" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py_Play" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../building-machine-learning-pipelines/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py_Play/playground.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../building-machine-learning-pipelines/utils/download_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,20 +169,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="publisher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GCP_Projects" />
+    <configuration name="resnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DL4CV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GCP_Projects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loader_util/nn/conv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\mhasa\PycharmProjects\GCP_Projects\pubsub\publisher.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loader_util/nn/conv/resnet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,20 +191,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subscriber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="GCP_Projects" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tousif_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GCP_Projects" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tousif_project/upload_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\mhasa\PycharmProjects\GCP_Projects\pubsub\subscriber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tousif_project/upload_test/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.resnet" />
+        <item itemvalue="Python.download_dataset" />
         <item itemvalue="Python.account_balance" />
-        <item itemvalue="Python.playground" />
         <item itemvalue="Python.threading_example" />
-        <item itemvalue="Python.subscriber" />
-        <item itemvalue="Python.publisher" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +312,15 @@
       <workItem from="1631756349890" duration="3245000" />
       <workItem from="1631797443935" duration="7985000" />
       <workItem from="1631889502338" duration="256000" />
-      <workItem from="1631889904473" duration="35284000" />
+      <workItem from="1631889904473" duration="36068000" />
+      <workItem from="1632087318279" duration="6902000" />
+      <workItem from="1632158438107" duration="48181000" />
+      <workItem from="1632778951967" duration="8670000" />
+      <workItem from="1632892567305" duration="3639000" />
+      <workItem from="1632976926356" duration="22674000" />
+      <workItem from="1633111164079" duration="1178000" />
+      <workItem from="1633137054663" duration="27670000" />
+      <workItem from="1633483327393" duration="7322000" />
     </task>
     <servers />
   </component>
@@ -327,15 +345,19 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DL4CV$minigooglenet.coverage" NAME="minigooglenet Coverage Results" MODIFIED="1625721221406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loader_util/nn/conv" />
+    <SUITE FILE_PATH="coverage/DL4CV$test.coverage" NAME="test Coverage Results" MODIFIED="1633055295776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tousif_project/upload_test" />
+    <SUITE FILE_PATH="coverage/DL4CV$threading_example.coverage" NAME="threading_example Coverage Results" MODIFIED="1633074565189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
+    <SUITE FILE_PATH="coverage/DL4CV$account_balance.coverage" NAME="account_balance Coverage Results" MODIFIED="1633474406478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
+    <SUITE FILE_PATH="coverage/DL4CV$publisher.coverage" NAME="publisher Coverage Results" MODIFIED="1628801801819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GCP_Projects" />
+    <SUITE FILE_PATH="coverage/DL4CV$playground.coverage" NAME="playground Coverage Results" MODIFIED="1633072141344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
     <SUITE FILE_PATH="coverage/DL4CV$build_tiny_imagenet.coverage" NAME="build_tiny_imagenet Coverage Results" MODIFIED="1626257765151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras_dir/biblio2/p11_minigooglenet/deep_googlenet" />
     <SUITE FILE_PATH="coverage/DL4CV$deepgooglenet.coverage" NAME="deepgooglenet Coverage Results" MODIFIED="1626328137358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loader_util/nn/conv" />
-    <SUITE FILE_PATH="coverage/DL4CV$minigooglenet.coverage" NAME="minigooglenet Coverage Results" MODIFIED="1625721221406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loader_util/nn/conv" />
+    <SUITE FILE_PATH="coverage/DL4CV$cron_test.coverage" NAME="cron_test Coverage Results" MODIFIED="1633045794089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../WSL_Project" />
     <SUITE FILE_PATH="coverage/DL4CV$subscriber.coverage" NAME="subscriber Coverage Results" MODIFIED="1628804087485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GCP_Projects" />
-    <SUITE FILE_PATH="coverage/DL4CV$threading_example.coverage" NAME="threading_example Coverage Results" MODIFIED="1631132375777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
-    <SUITE FILE_PATH="coverage/DL4CV$account_balance.coverage" NAME="account_balance Coverage Results" MODIFIED="1632067481627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
     <SUITE FILE_PATH="coverage/DL4CV$cv_playground.coverage" NAME="cv_playground Coverage Results" MODIFIED="1626308152718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DL4CV$apache__beam.coverage" NAME="apache__beam Coverage Results" MODIFIED="1629353258094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GCP_Projects/dataflow" />
-    <SUITE FILE_PATH="coverage/DL4CV$publisher.coverage" NAME="publisher Coverage Results" MODIFIED="1628801801819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GCP_Projects" />
-    <SUITE FILE_PATH="coverage/DL4CV$playground.coverage" NAME="playground Coverage Results" MODIFIED="1631195487242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
+    <SUITE FILE_PATH="coverage/DL4CV$download_dataset.coverage" NAME="download_dataset Coverage Results" MODIFIED="1633465349435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../building-machine-learning-pipelines/utils" />
+    <SUITE FILE_PATH="coverage/DL4CV$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1633502199958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loader_util/nn/conv" />
   </component>
 </project>
