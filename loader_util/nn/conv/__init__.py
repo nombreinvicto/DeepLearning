@@ -8,4 +8,4 @@ from .lenet_batchnorm import LeNetBatchNorm
 from .alexnet import AlexNet
 from .minigooglenet import MiniGoogleNet
 from .deepgooglenet import DeepGoogleNet
-from .resnet import Resnet
+from .resnet import ResNet

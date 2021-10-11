@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cd28bccd-b8f6-42cd-be22-53387d12ee99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cv_playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv_playground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loader_util/nn/conv/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader_util/nn/conv/resnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader_util/nn/conv/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader_util/nn/conv/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader_util/utils/simple_obj_det.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader_util/utils/simple_obj_det.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/torch_dir/misc_dir/P2_CellTypeDetection/cellTypeDetection_torch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/torch_dir/misc_dir/P2_CellTypeDetection/cellTypeDetection_torch.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torch_dir/pytorch_stepbystep_exercise/1_vis_gradient_descent.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="BashSupport Pro Bash" />
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -49,32 +51,34 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Py_Play/account_balance.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../GCP_Projects/dataflow/apache__beam.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Py_Play/playground.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cv_playground.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Py_Play/account_balance.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/__init__.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loader_util/io/hdf5datasetgenerator.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loader_util/datasets/simpledatasetloader.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loader_util/io/hdf5_dataset_writer.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/simplepreprocesor.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/meanpreprocessor.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/imagetoarraypreprocesor.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/patchpreprocessor.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/croppreprocessor.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/aspect_aware_preprocessing.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/loader_util/utils/ranked.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/lenet.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/lenet_batchnorm.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/shallownet.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/minvggnet.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/alexnet.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/minigooglenet.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/deepgooglenet.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/resnet.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../GCP_Projects/pubsub/subscriber.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/keras_dir/biblio2/p11_minigooglenet/deep_googlenet/build_tiny_imagenet.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../GCP_Projects/dataflow/apache__beam.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/cv_playground.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/minvggnet.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/loader_util/nn/conv/__init__.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/loader_util/io/hdf5datasetgenerator.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Py_Play/playground.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/loader_util/datasets/simpledatasetloader.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/loader_util/io/hdf5_dataset_writer.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/simplepreprocesor.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/meanpreprocessor.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Py_Play/account_balance.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Py_Play/account_balance.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/patchpreprocessor.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/imagetoarraypreprocesor.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/loader_util/preprocessing/croppreprocessor.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1utcDNqZKzNwK65pbuOPnPQE0to" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -95,10 +99,15 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JavaScript" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Py_Play" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GCP_Projects/pubsub" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -111,11 +120,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mhasa\PycharmProjects\GCP_Projects\pubsub" />
       <recent name="C:\Users\mhasa\PycharmProjects\Py_Play" />
       <recent name="C:\Users\mhasa\PycharmProjects\DL4CV\torch_dir" />
       <recent name="C:\Users\mhasa\PycharmProjects\DL4CV\side_projects\dlnd" />
       <recent name="C:\Users\mhasa\PycharmProjects\DL4CV" />
-      <recent name="C:\Users\mhasa\PycharmProjects\GCP_Projects\dataflow\data_dir" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mhasa\PycharmProjects\Py_Play" />
@@ -124,7 +133,13 @@
       <recent name="C:\Users\mhasa\PycharmProjects\GCP_Projects\pubsub" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.resnet">
+  <component name="RunManager" selected="Python.playground">
+    <configuration name="all_playg_js.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../Py_Play/JSPlay/all_playg_js.js" working-dir="$PROJECT_DIR$/../Py_Play/JSPlay">
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="account_balance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py_Play" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,29 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="download_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="building-machine-learning-pipelines" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../building-machine-learning-pipelines/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../building-machine-learning-pipelines/utils/download_dataset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="resnet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cv_playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DL4CV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,12 +170,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loader_util/nn/conv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loader_util/nn/conv/resnet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cv_playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,29 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="tousif_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../tousif_project/upload_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../tousif_project/upload_test/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="threading_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Py_Play" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,7 +197,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py_Play/threading_example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py_Play/playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.resnet" />
-        <item itemvalue="Python.download_dataset" />
+        <item itemvalue="Python.playground" />
+        <item itemvalue="Python.cv_playground" />
         <item itemvalue="Python.account_balance" />
-        <item itemvalue="Python.threading_example" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Node.js.all_playg_js.js" />
+        <item itemvalue="Node.js.scratch.js" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +291,14 @@
       <workItem from="1632976926356" duration="22674000" />
       <workItem from="1633111164079" duration="1178000" />
       <workItem from="1633137054663" duration="27670000" />
-      <workItem from="1633483327393" duration="7322000" />
+      <workItem from="1633483327393" duration="12010000" />
+      <workItem from="1633561577051" duration="26434000" />
+      <workItem from="1633746837535" duration="3487000" />
+      <workItem from="1633770683555" duration="2000" />
+      <workItem from="1633771503100" duration="8155000" />
+      <workItem from="1633811555786" duration="777000" />
+      <workItem from="1633812802371" duration="6619000" />
+      <workItem from="1633835729672" duration="18919000" />
     </task>
     <servers />
   </component>
@@ -337,7 +315,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -345,19 +322,19 @@
     </ignored-roots>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DL4CV$minigooglenet.coverage" NAME="minigooglenet Coverage Results" MODIFIED="1625721221406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loader_util/nn/conv" />
-    <SUITE FILE_PATH="coverage/DL4CV$test.coverage" NAME="test Coverage Results" MODIFIED="1633055295776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tousif_project/upload_test" />
+    <SUITE FILE_PATH="coverage/DL4CV$playground.coverage" NAME="playground Coverage Results" MODIFIED="1633923119936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
     <SUITE FILE_PATH="coverage/DL4CV$threading_example.coverage" NAME="threading_example Coverage Results" MODIFIED="1633074565189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
-    <SUITE FILE_PATH="coverage/DL4CV$account_balance.coverage" NAME="account_balance Coverage Results" MODIFIED="1633474406478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
-    <SUITE FILE_PATH="coverage/DL4CV$publisher.coverage" NAME="publisher Coverage Results" MODIFIED="1628801801819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GCP_Projects" />
-    <SUITE FILE_PATH="coverage/DL4CV$playground.coverage" NAME="playground Coverage Results" MODIFIED="1633072141344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
+    <SUITE FILE_PATH="coverage/DL4CV$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1633502199958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loader_util/nn/conv" />
+    <SUITE FILE_PATH="coverage/DL4CV$cron_test.coverage" NAME="cron_test Coverage Results" MODIFIED="1633045794089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../WSL_Project" />
+    <SUITE FILE_PATH="coverage/DL4CV$test.coverage" NAME="test Coverage Results" MODIFIED="1633055295776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tousif_project/upload_test" />
+    <SUITE FILE_PATH="coverage/DL4CV$publisher.coverage" NAME="publisher Coverage Results" MODIFIED="1633598887850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GCP_Projects/pubsub" />
     <SUITE FILE_PATH="coverage/DL4CV$build_tiny_imagenet.coverage" NAME="build_tiny_imagenet Coverage Results" MODIFIED="1626257765151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keras_dir/biblio2/p11_minigooglenet/deep_googlenet" />
     <SUITE FILE_PATH="coverage/DL4CV$deepgooglenet.coverage" NAME="deepgooglenet Coverage Results" MODIFIED="1626328137358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loader_util/nn/conv" />
-    <SUITE FILE_PATH="coverage/DL4CV$cron_test.coverage" NAME="cron_test Coverage Results" MODIFIED="1633045794089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../WSL_Project" />
     <SUITE FILE_PATH="coverage/DL4CV$subscriber.coverage" NAME="subscriber Coverage Results" MODIFIED="1628804087485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GCP_Projects" />
-    <SUITE FILE_PATH="coverage/DL4CV$cv_playground.coverage" NAME="cv_playground Coverage Results" MODIFIED="1626308152718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DL4CV$apache__beam.coverage" NAME="apache__beam Coverage Results" MODIFIED="1629353258094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GCP_Projects/dataflow" />
+    <SUITE FILE_PATH="coverage/DL4CV$account_balance.coverage" NAME="account_balance Coverage Results" MODIFIED="1633850439889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Py_Play" />
+    <SUITE FILE_PATH="coverage/DL4CV$cv_playground.coverage" NAME="cv_playground Coverage Results" MODIFIED="1633909051810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DL4CV$minigooglenet.coverage" NAME="minigooglenet Coverage Results" MODIFIED="1625721221406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loader_util/nn/conv" />
     <SUITE FILE_PATH="coverage/DL4CV$download_dataset.coverage" NAME="download_dataset Coverage Results" MODIFIED="1633465349435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../building-machine-learning-pipelines/utils" />
-    <SUITE FILE_PATH="coverage/DL4CV$resnet.coverage" NAME="resnet Coverage Results" MODIFIED="1633502199958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loader_util/nn/conv" />
   </component>
 </project>
