@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DL4CV.iml" filepath="$PROJECT_DIR$/.idea/DL4CV.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../GCP_Projects/.idea/GCP_Projects.iml" filepath="$PROJECT_DIR$/../GCP_Projects/.idea/GCP_Projects.iml" />
-      <module fileurl="file://$USER_HOME$/Google Drive/Tutorial Corner/PYTH/DeepLearning/DeepLearning-DL4CV/ImageDatasets/.idea/ImageDatasets.iml" filepath="$USER_HOME$/Google Drive/Tutorial Corner/PYTH/DeepLearning/DeepLearning-DL4CV/ImageDatasets/.idea/ImageDatasets.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Py_Play/.idea/Py_Play.iml" filepath="$PROJECT_DIR$/../Py_Play/.idea/Py_Play.iml" />
-      <module fileurl="file://$USER_HOME$/Google Drive/North Carolina State University/Fall_2020/Courses/CollectedStatMaterials/ST 515/.idea/ST 515.iml" filepath="$USER_HOME$/Google Drive/North Carolina State University/Fall_2020/Courses/CollectedStatMaterials/ST 515/.idea/ST 515.iml" />
-      <module fileurl="file://$USER_HOME$/Google Drive/North Carolina State University/Fall_2020/Courses/CollectedStatMaterials/ST 537/.idea/ST 537.iml" filepath="$USER_HOME$/Google Drive/North Carolina State University/Fall_2020/Courses/CollectedStatMaterials/ST 537/.idea/ST 537.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../WSL_Project/.idea/WSL_Project.iml" filepath="$PROJECT_DIR$/../WSL_Project/.idea/WSL_Project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../building-machine-learning-pipelines/.idea/building-machine-learning-pipelines.iml" filepath="$PROJECT_DIR$/../building-machine-learning-pipelines/.idea/building-machine-learning-pipelines.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../cell_confluency/.idea/cell_confluency.iml" filepath="$PROJECT_DIR$/../cell_confluency/.idea/cell_confluency.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../tousif_project/.idea/tousif_project.iml" filepath="$PROJECT_DIR$/../tousif_project/.idea/tousif_project.iml" />
+      <module fileurl="file://$USER_HOME$/google_drive/Fall_2020/Courses/CollectedStatMaterials/ST 515/.idea/ST 515.iml" filepath="$USER_HOME$/google_drive/Fall_2020/Courses/CollectedStatMaterials/ST 515/.idea/ST 515.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/deep_learning.iml" filepath="$PROJECT_DIR$/.idea/deep_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../py_play/.idea/py_play.iml" filepath="$PROJECT_DIR$/../py_play/.idea/py_play.iml" />
     </modules>
   </component>
 </project>
