@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/google_drive/Fall_2020/Courses/CollectedStatMaterials/ST 515/.idea/ST 515.iml" filepath="$USER_HOME$/google_drive/Fall_2020/Courses/CollectedStatMaterials/ST 515/.idea/ST 515.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/deep_learning.iml" filepath="$PROJECT_DIR$/.idea/deep_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DeepLearning.iml" filepath="$PROJECT_DIR$/.idea/DeepLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/../py_play/.idea/py_play.iml" filepath="$PROJECT_DIR$/../py_play/.idea/py_play.iml" />
     </modules>
   </component>
