@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6d88c177-62e9-43dc-acc9-5d991388d5c0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/torch_dir/lazy_dir/sec4_ml_regression/sec4_p2_moores_law.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/torch_dir/lazy_dir/sec4_ml_regression/sec4_p2_moores_law.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/torch_dir/lazy_dir/sec4_ml_regression/sec4_p3_linear_classifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/torch_dir/lazy_dir/sec4_ml_regression/sec4_p3_linear_classifier.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../py_play/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../py_play/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../py_play/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../py_play/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../py_play/.idea/py_play.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../py_play/.idea/py_play.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../py_play/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../py_play/deep_dive/course1/star-args.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../py_play/deep_dive/course1/star-args.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../py_play/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/../py_play/playground.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../py_play" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="femjoe2s" />
@@ -52,20 +53,22 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mhasa/PycharmProjects/DeepLearning/keras_dir/ng_nlp/course1/week2&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "C:/Users/mhasa/PycharmProjects/py_play/deep_dive/course1",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mhasa\PycharmProjects\py_play\deep_dive\course1" />
       <recent name="C:\Users\mhasa\PycharmProjects\DeepLearning\keras_dir\ng_nlp\course1\week2" />
     </key>
   </component>
@@ -159,7 +162,9 @@
       <workItem from="1650588333026" duration="17115000" />
       <workItem from="1650674370736" duration="12347000" />
       <workItem from="1650714931209" duration="431000" />
-      <workItem from="1650715431088" duration="390000" />
+      <workItem from="1650715431088" duration="1290000" />
+      <workItem from="1650740708210" duration="2929000" />
+      <workItem from="1650767899273" duration="10887000" />
     </task>
     <servers />
   </component>
@@ -178,8 +183,8 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeepLearning$account_balance.coverage" NAME="account_balance Coverage Results" MODIFIED="1650712597899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../py_play" />
+    <SUITE FILE_PATH="coverage/DeepLearning$account_balance.coverage" NAME="account_balance Coverage Results" MODIFIED="1650879399282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../py_play" />
     <SUITE FILE_PATH="coverage/DeepLearning$cv_playground.coverage" NAME="cv_playground Coverage Results" MODIFIED="1650387823686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeepLearning$playground.coverage" NAME="playground Coverage Results" MODIFIED="1650446389303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../py_play" />
+    <SUITE FILE_PATH="coverage/DeepLearning$playground.coverage" NAME="playground Coverage Results" MODIFIED="1650853779055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../py_play" />
   </component>
 </project>
