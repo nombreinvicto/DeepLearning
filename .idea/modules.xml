@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DeepLearning.iml" filepath="$PROJECT_DIR$/.idea/DeepLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../deep_learning/.idea/deep_learning.iml" filepath="$PROJECT_DIR$/../deep_learning/.idea/deep_learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/../py_play/.idea/py_play.iml" filepath="$PROJECT_DIR$/../py_play/.idea/py_play.iml" />
     </modules>
   </component>
