@@ -1,6 +1,6 @@
 from .simplepreprocesor import SimplePreProcessor
+from .aspect_aware_processing import AspectAwarePreprocessor
 from .imagetoarraypreprocesor import ImageToArrayPreprocessor
-from .aspect_aware_preprocessing import AspectAwarePreprocessor
 from .mean_subtraction_legacy import MeanSubtractionPreProcessor
 from .meanpreprocessor import MeanPreprocessor
 from .patchpreprocessor import PatchPreprocessor
