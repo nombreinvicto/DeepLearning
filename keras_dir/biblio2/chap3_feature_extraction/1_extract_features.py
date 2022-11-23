@@ -13,8 +13,8 @@ from tensorflow.keras.preprocessing.image import img_to_array, load_img
 
 # %% ##################################################################
 # script constants
-dataset_path = r"C:\Users\mhasa\google_drive\PYTH\DeepLearning\DeepLearning-DL4CV\Edition3\datasets\animals\images"
-output = r"C:\Users\mhasa\google_drive\PYTH\DeepLearning\DeepLearning-DL4CV\Edition3\datasets\animals\hdf5\features.hdf5"
+dataset_path = r"C:\Users\mhasa\google_drive\PYTH\DeepLearning\DeepLearning-DL4CV\Edition3\datasets\flowers17\images"
+output = r"C:\Users\mhasa\google_drive\PYTH\DeepLearning\DeepLearning-DL4CV\Edition3\datasets\flowers17\hdf5\features.hdf5"
 batch_size = 32
 # %% ##################################################################
 # init logging properties
@@ -79,4 +79,5 @@ for i in range(0, len(image_paths), batch_size):
 # finish everything
 dataset.close()
 pbar.finish()
+logger.info(f"done with transformation. EXITNG script")
 # %% ##################################################################
