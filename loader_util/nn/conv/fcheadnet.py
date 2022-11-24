@@ -1,25 +1,22 @@
-# import the required packages
-from tensorflow.keras.layers import Dropout, Flatten, Dense
+# import necessary packages
 from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import Flatten
+from tensorflow.keras.layers import Dense
 
+
+# %% ##################################################################
 
 class FCHeadNet:
     @staticmethod
-    def builld(baseModel: Model, classes, fc_nodes=[]):
-        # initialise the head model that will be placed on top of the base
-        # then add FC layer
-        headModel = baseModel.output
-        print("BaseModel Out Shape: ", baseModel.output.shape)
-        headModel = Flatten(name='fc_flatten')(headModel)
-
-        for i, nodes in enumerate(fc_nodes):
-            headModel = Dense(nodes,
-                              activation='relu',
-                              name=f"dense{i}")(headModel)
-            headModel = Dropout(0.5)(headModel)
-
-        # add a softmax
-        headModel = Dense(classes, activation='softmax')(headModel)
-
-        # return model
-        return headModel
+    def build(base_model: Model,
+              classes: int,
+              dense_nodes: int) -> Model:
+        # init the head model that will be placed on top
+        # of the base model then add FC layer
+        head_model = base_model.output
+        head_model = Flatten(name="flatten")(head_model)
+        head_model = Dense(dense_nodes, activation="relu")(head_model)
+        head_model = Dropout(0.5)(head_model)
+        head_model = Dense(classes, activation="softmax")(head_model)
+        return head_model

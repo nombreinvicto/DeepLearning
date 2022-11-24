@@ -1,23 +1,26 @@
-# import the necessary packages
+# import the required packages
 import numpy as np
 
 
-def rank5_accuracy(preds,  # probabilities of a batch, e.g from model.predict()
-                   labels  # ground truth labels e.g LabelEncoded labels
-                   ):
-    # init the vars
+# %% ##################################################################
+
+def rank5_accuracy(preds: np.ndarray, labels: np.ndarray):
+    # init the rank1 and rank5 accuracies
     rank1 = 0
     rank5 = 0
 
-    # loop over the preds and ground truth labels
-    for p, gt in zip(preds, labels):
-        sort_indices = np.argsort(p)[::-1]
+    for pred, label in zip(preds, labels):
+        pred: np.ndarray
+        label: int
 
-        if gt in sort_indices[:5]:
-            rank5 += 1
+        high_to_low_prob_indices = np.argsort(pred)[::-1]
 
-        if gt == sort_indices[0]:
+        if high_to_low_prob_indices[0] == label:
             rank1 += 1
 
-    return rank1 / float(len(preds)), \
-           rank5 / float(len(preds))
+        if label in high_to_low_prob_indices[:5]:
+            rank5 += 1
+
+    rank1_acc = rank1 / (len(preds))
+    rank5_acc = rank5 / (len(preds))
+    return rank1_acc, rank5_acc
