@@ -157,4 +157,5 @@ cython_debug/
 *.msi
 *.exe
 torch_dir/deep-learning-v2-pytorch
-keras_dir/mlcourse.ai
+keras_dir/mlcourse.ai/mlcourse.ai
+keras_dir/mlcourse.ai/bonus_assignments
