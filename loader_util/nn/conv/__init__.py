@@ -1,8 +1,0 @@
-from .shallownet import ShallowNet
-from .lenet import LeNet
-from .minvggnet import MinVGGNet
-from .fcheadnet import FCHeadNet
-
-from .alexnet import AlexNet
-from .minigooglenet import MiniGoogLeNet
-from .deepergooglenet import DeeperGoogleNet
