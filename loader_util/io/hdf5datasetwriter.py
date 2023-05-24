@@ -12,8 +12,7 @@ class HDF5DatasetWriter:
                  bufsize=1000):
         # check to see if the outpath exists
         if os.path.exists(outpath):
-            raise ValueError(f"supplied outpath: {outpath} already exists."
-                             f"h5py cannot overwrite extant locations")
+            os.remove(outpath)
 
         # create the "database" which encapsulates the datasets
         self.db = h5py.File(outpath, mode="w")
@@ -41,7 +40,7 @@ class HDF5DatasetWriter:
     def flush(self):
         # write the buffer to disk then reset the buffer
         i = self.idx + len(self.buffer["features"])
-        self.features[self.idx:i] = self.buffer["data"]
+        self.features[self.idx:i] = self.buffer["features"]
         self.labels[self.idx:i] = self.buffer["labels"]
         self.idx = i
         self.buffer = {"features": [], "labels": []}
@@ -56,4 +55,4 @@ class HDF5DatasetWriter:
     def close(self):
         if len(self.buffer["features"]) > 0:
             self.flush()
-        self.close()
+        self.db.close()
