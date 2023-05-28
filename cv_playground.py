@@ -38,3 +38,12 @@ from tensorflow.keras.models import Model, load_model
 
 
 
+class MyClass:
+    pass
+
+obj = MyClass()
+
+MyClass.__name__
+MyClass.__class__
+obj.__name__
+obj.__class__
