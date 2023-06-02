@@ -37,7 +37,7 @@ class AspectAwarePreprocessor:
         ha, wa = image.shape[:2]
 
         # finally crop along the longer axis
-        image = image[dh:h - dh, dw:w - dw]
+        image = image[dh:ha - dh, dw:wa - dw]
 
         return cv2.resize(image,
                           (self.width, self.height),

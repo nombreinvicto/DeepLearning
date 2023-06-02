@@ -1,5 +1,4 @@
 # import the necessary packages
-import numpy as np
 import h5py
 import os
 
@@ -35,9 +34,9 @@ class HDF5DatasetWriter:
         self.buffer["labels"].extend(labels)
 
         if len(self.buffer["features"]) >= self.bufsize:
-            self.flush()
+            self._flush()
 
-    def flush(self):
+    def _flush(self):
         # write the buffer to disk then reset the buffer
         i = self.idx + len(self.buffer["features"])
         self.features[self.idx:i] = self.buffer["features"]
@@ -54,5 +53,5 @@ class HDF5DatasetWriter:
 
     def close(self):
         if len(self.buffer["features"]) > 0:
-            self.flush()
+            self._flush()
         self.db.close()
