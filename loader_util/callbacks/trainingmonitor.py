@@ -37,7 +37,7 @@ class TrainingMonitor(BaseLogger):
 
     def on_epoch_end(self, epoch, logs={}):
         # loop over the logs and update the loss, acc etc for entire training
-        # process
+        # process. logs is a dict of metrics for the epoch
         for k, v in logs.items():
             l = self.H.get(k, [])
             l.append(float(v))
