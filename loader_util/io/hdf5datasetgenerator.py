@@ -1,5 +1,5 @@
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from loader_util.preprocessing import SimplePreProcessor
+from loader_util.preprocessing import SimplePreprocessor
 from tensorflow.keras.utils import to_categorical
 from typing import Dict, Sequence
 import numpy as np
@@ -10,7 +10,7 @@ class HDF5DatasetGenerator:
     def __init__(self,
                  dbpath,
                  batch_size,  # size of batch to yield
-                 preprocessors: Sequence[SimplePreProcessor] = None,
+                 preprocessors: Sequence[SimplePreprocessor] = None,
                  aug: ImageDataGenerator = None,
                  binarize=True,  # whether to OHE the ordinal labels
                  features_name="data",

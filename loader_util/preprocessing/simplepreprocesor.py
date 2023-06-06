@@ -1,7 +1,7 @@
 import cv2
 
 
-class SimplePreProcessor:
+class SimplePreprocessor:
     def __init__(self, width, height, inter=cv2.INTER_AREA):
         # store target image width and height and interpolation method
         self.width = width
