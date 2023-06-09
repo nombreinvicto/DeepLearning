@@ -47,7 +47,7 @@ class HDF5DatasetWriter:
     def store_string_feature_labels(self, class_labels):
         dt = h5py.string_dtype(encoding='utf-8')
         label_db = self.db.create_dataset("label_names",
-                                          shape=len(class_labels),
+                                          shape=(len(class_labels),),
                                           dtype=dt)
         label_db[:] = class_labels
 
