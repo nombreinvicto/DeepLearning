@@ -159,3 +159,4 @@ cython_debug/
 torch_dir/deep-learning-v2-pytorch
 keras_dir/mlcourse.ai/mlcourse.ai
 keras_dir/mlcourse.ai/bonus_assignments
+keras_dir/image_uni/*/source_code
