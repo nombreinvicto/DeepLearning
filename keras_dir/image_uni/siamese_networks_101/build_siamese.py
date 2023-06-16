@@ -90,12 +90,13 @@ for i in np.random.choice(a=np.arange(0, len(pair_train)),
     # add the pair visualization to our list of output images
     images.append(vis)
 # %% ##################################################################
-# construct the montage for the images
-# montga shape is how many images u want across x and y axes
-# 7 x 7 = 49 images we selected
-montage = build_montages(images, image_shape=(96, 51),
-                         montage_shape=(7, 7))[0]
-# show the output montage
-cv2.imshow("Siamese Image Pairs", montage)
-cv2.waitKey(0)
+if __name__ == '__main__':
+    # construct the montage for the images
+    # montga shape is how many images u want across x and y axes
+    # 7 x 7 = 49 images we selected
+    montage = build_montages(images, image_shape=(96, 51),
+                             montage_shape=(7, 7))[0]
+    # show the output montage
+    cv2.imshow("Siamese Image Pairs", montage)
+    cv2.waitKey(0)
 # %% ##################################################################
