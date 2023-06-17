@@ -1,5 +1,6 @@
 # import the necessary packages
 import tensorflow.keras.backend as K
+import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -57,14 +58,40 @@ def euclidean_distance(vectors):
 
 
 # %% ##################################################################
+def contrastive_loss(y, preds, margin=1):
+    # explicitly cast the true class label data type to the predicted
+    # class label data type (otherwise we run the risk of having two
+    # separate data types, causing TensorFlow to error out)
+    y = tf.cast(y, preds.dtype)
+
+    # calculate the contrastive loss between the true labels and
+    # the predicted labels
+    squared_preds = K.square(preds)
+    squared_margin = K.square(K.maximum(margin - preds, 0))
+    loss = K.mean(y * squared_preds + (1 - y) * squared_margin)
+
+    # return the computed contrastive loss to the calling function
+    return loss
+
+
+# %% ##################################################################
 def plot_training(H, plotPath):
     # construct a plot that plots and saves the training history
     plt.style.use("ggplot")
     plt.figure()
-    plt.plot(H.history["loss"], label="train_loss")
-    plt.plot(H.history["val_loss"], label="val_loss")
-    plt.plot(H.history["accuracy"], label="train_acc")
-    plt.plot(H.history["val_accuracy"], label="val_acc")
+
+    if H.history.get("loss"):
+        plt.plot(H.history["loss"], label="train_loss")
+
+    if H.history.get("val_loss"):
+        plt.plot(H.history["val_loss"], label="val_loss")
+
+    if H.history.get("accuracy"):
+        plt.plot(H.history["accuracy"], label="train_acc")
+
+    if H.history.get("val_accuracy"):
+        plt.plot(H.history["val_accuracy"], label="val_acc")
+
     plt.title("Training Loss and Accuracy")
     plt.xlabel("Epoch #")
     plt.ylabel("Loss/Accuracy")
