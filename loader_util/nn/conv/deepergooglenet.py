@@ -124,7 +124,7 @@ class DeeperGooglenet:
         input_shape = height, width, depth
         chan_dim = -1
 
-        if K.image_data_format() == "channel_first"
+        if K.image_data_format() == "channel_first":
             input_shape = depth, height, width
             chan_dim = 1
 
@@ -162,3 +162,45 @@ class DeeperGooglenet:
                          strides=(2, 2),
                          padding="same",
                          name="pool2")(x)
+        # %% ##################################################################
+        # apply 2 inception modules followed by pool
+        x = DeeperGooglenet.inception_module(x, 64, 96, 128, 16,
+                                             32, 32, chan_dim, "3a", reg=reg)
+        x = DeeperGooglenet.inception_module(x, 128, 128, 192, 32,
+                                             96, 64, chan_dim, "3b", reg=reg)
+        x = MaxPooling2D((3, 3), strides=(2, 2), padding="same",
+                         name="pool3")(x)
+        # %% ##################################################################
+        # apply five Inception modules followed by POOL
+        x = DeeperGooglenet.inception_module(x, 192, 96, 208, 16,
+                                             48, 64, chan_dim, "4a", reg=reg)
+
+        x = DeeperGooglenet.inception_module(x, 160, 112, 224, 24,
+                                             64, 64, chan_dim, "4b", reg=reg)
+
+        x = DeeperGooglenet.inception_module(x, 128, 128, 256, 24,
+                                             64, 64, chan_dim, "4c", reg=reg)
+
+        x = DeeperGooglenet.inception_module(x, 112, 144, 288, 32,
+                                             64, 64, chan_dim, "4d", reg=reg)
+
+        x = DeeperGooglenet.inception_module(x, 256, 160, 320, 32,
+                                             128, 128, chan_dim, "4e", reg=reg)
+
+        x = MaxPooling2D((3, 3), strides=(2, 2), padding="same",
+                         name="pool4")(x)
+        # %% ##################################################################
+        # apply a POOL layer (average) followed by dropout
+        x = AveragePooling2D((4, 4), name="pool5")(x)
+        x = Dropout(0.4, name="do")(x)
+
+        # softmax classifier
+        x = Flatten(name="flatten")(x)
+        x = Dense(classes, kernel_regularizer=l2(reg), name="labels")(x)
+        x = Activation("softmax", name="softmax")(x)
+
+        # create the model
+        model = Model(inputs, x, name="googlenet")
+
+        # return the constructed network architecture
+        return model
