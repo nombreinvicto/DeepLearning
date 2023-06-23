@@ -13,7 +13,7 @@ class HDF5DatasetGenerator:
                  preprocessors: Sequence[SimplePreprocessor] = None,
                  aug: ImageDataGenerator = None,
                  binarize=True,  # whether to OHE the ordinal labels
-                 features_name="data",
+                 features_name="features",
                  labels_name="labels"):
         self.batch_size = batch_size
         self.preprocessors = preprocessors

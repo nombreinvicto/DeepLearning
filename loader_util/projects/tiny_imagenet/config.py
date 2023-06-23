@@ -16,6 +16,6 @@ test_hdf5_path = r"C:\Users\mhasa\Downloads\tiny-imagenet-200\hdf5\test.hdf5"
 rgb_mean_path = r"C:\Users\mhasa\Downloads\tiny-imagenet-200\rgb_mean.json"
 
 output_path = r"/content/drive/MyDrive/Colab Notebooks/pyimagesearch/bibilio2/chapter11_minigooglenet/output/tinyimagenet"
-model_path = os.path.sep.join([output_path, "epoch_70_model.hdf5"])
+model_path = os.path.sep.join([output_path, "final_model.hdf5"])
 fig_path = os.path.sep.join([output_path, "deepergooglenet_on_tinyimagenet.png"])
 json_path = os.path.sep.join([output_path, "deepergooglenet_on_tinyimagenet.json"])
