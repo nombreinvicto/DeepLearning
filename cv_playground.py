@@ -1,9 +1,5 @@
-import sys
-import time
-from flask import Flask
-from collections import Counter
-from sklearn.naive_bayes import MultinomialNB
-# %% ##################################################################
-while True:
-    print(f"[INFO] hello world......")
-    time.sleep(1)
+import sklearn
+import pandas as pd
+
+print(sklearn.__version__)
+print(pd.__version__)
