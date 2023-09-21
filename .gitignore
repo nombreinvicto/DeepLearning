@@ -156,7 +156,7 @@ cython_debug/
 *.tar.gz
 *.msi
 *.exe
-torch_dir/deep-learning-v2-pytorch
-keras_dir/mlcourse.ai/mlcourse.ai
-keras_dir/mlcourse.ai/bonus_assignments
 keras_dir/image_uni/*/source_code
+torch_dir/pytorch_stepbystep_main
+ml_dir/
+opencv/
