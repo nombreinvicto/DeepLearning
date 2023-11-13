@@ -1,9 +1,9 @@
 import tracemalloc
-from decohints import decohints
 from functools import wraps
-from types import FunctionType
-from objsize import get_deep_size
 from time import perf_counter
+from types import FunctionType
+from decohints import decohints
+from objsize import get_deep_size
 
 
 # %% ##################################################################
