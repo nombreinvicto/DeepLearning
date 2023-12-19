@@ -156,7 +156,5 @@ cython_debug/
 *.tar.gz
 *.msi
 *.exe
-keras_dir/image_uni/*/source_code
-torch_dir/pytorch_stepbystep_main
-ml_dir/
-opencv/
+
+courses/
