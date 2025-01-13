@@ -156,8 +156,7 @@ cython_debug/
 *.tar.gz
 *.msi
 *.exe
-
-
+*.safetensors
 
 
 
