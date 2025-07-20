@@ -23,6 +23,37 @@ ap.add_argument("-p",
 args = vars(ap.parse_args())
 # %% ##################################################################
 print(f"[INFO] loading image here......")
+
+# load an image in PIL format as RGB
 image = load_img(args["image"])
+
+# convert image to numpy array
 image = img_to_array(image)
+
+# adding batch axis to image since
+# tflow expects that dimension
 image = np.expand_dims(image, axis=0)
+
+# lets init the augmentor.
+aug = ImageDataGenerator(rotation_range=30,
+                         width_shift_range=0.1,
+                         height_shift_range=0.1,
+                         shear_range=0.2,
+                         zoom_range=0.2,
+                         horizontal_flip=True,
+                         fill_mode='nearest')
+# %% ##################################################################
+print(f"[INFO] generating aumented images......")
+
+# this is a generator so will need to iterate over it
+image_gen = aug.flow(image,
+                     batch_size=1,
+                     save_to_dir=args["output"],
+                     save_prefix=args["prefix"],
+                     save_format='jpg')
+total = 0
+for image in image_gen:
+    total += 1
+    if total == 10:
+        break
+# %% ##################################################################
