@@ -8,9 +8,10 @@ def rankn_accuracy(preds: np.ndarray,
     rank1_acc = 0
     rankn_acc = 0
 
-    # preds expected to be nxd array of probabilities
+    # preds expected to be nxd array of probability
+    # which could come as output of model.predict()
     # labels expected to be (n,) array of labels/indices
-    # make sure rankn conforms to probability dimansion
+    # make sure rankn conforms to probability dimension
     assert preds.shape[1] <= rank, \
         "predictions array should have a probability " \
         "dimension less than or equal to rank number"

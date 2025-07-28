@@ -30,6 +30,7 @@ class HDF5DatasetWriter:
 
     def add(self, rows, labels):
         # add the rows(features) and labels to buffer
+        # rows and labels are lists of numpy arrays
         self.buffer["features"].extend(rows)
         self.buffer["labels"].extend(labels)
 
@@ -39,9 +40,15 @@ class HDF5DatasetWriter:
     def _flush(self):
         # write the buffer to disk then reset the buffer
         i = self.idx + len(self.buffer["features"])
+
+        # this process writes data to the h5 datasets
         self.features[self.idx:i] = self.buffer["features"]
         self.labels[self.idx:i] = self.buffer["labels"]
+
+        # changing the starting index to the next position
         self.idx = i
+
+        # emptying the buffer
         self.buffer = {"features": [], "labels": []}
 
     def store_string_feature_labels(self, class_labels):
