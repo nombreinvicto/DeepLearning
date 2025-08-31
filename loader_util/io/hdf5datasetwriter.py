@@ -13,6 +13,8 @@ class HDF5DatasetWriter:
         if os.path.exists(outpath):
             os.remove(outpath)
 
+        # the initialisation just creates the datasets
+        # and provisions the space in memory
         # create the "database" which encapsulates the datasets
         self.db = h5py.File(outpath, mode="w")
         self.features = self.db.create_dataset(name=datakey,
