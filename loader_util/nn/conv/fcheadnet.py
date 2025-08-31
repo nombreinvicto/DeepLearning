@@ -10,6 +10,8 @@ class FCHeadNet:
     def build(base_model: Model,
               output_classes: int,
               dense_layer_nodes: List[int]) -> Model:
+
+        # .output retrieves the output tensor of a layer
         head_model = Flatten(name="flatten")(base_model.output)
 
         # now iterate through the dense layer nodes
