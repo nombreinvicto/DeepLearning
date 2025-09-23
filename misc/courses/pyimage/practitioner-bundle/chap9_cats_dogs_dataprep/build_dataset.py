@@ -15,6 +15,7 @@ train_paths = list(paths.list_images(config.images_path))
 train_labels = [path.split(os.path.sep)[-1].split(".")[0] for path in train_paths]
 le = LabelEncoder()
 encoded_labels = le.fit_transform(train_labels)
+print(le.classes_)
 # %% ##################################################################
 # do the datasplit
 trainp, testp, trainy, testy = train_test_split(train_paths,
@@ -44,6 +45,7 @@ for dtype, paths, labels, output_path in datasets:
     print(f"[INFO] building {dtype} dataset at : {output_path}......")
     writer = HDF5DatasetWriter(dims=(len(paths), 256, 256, 3),
                                outpath=output_path)
+    writer.store_string_feature_labels(class_labels=le.classes_)
     with tqdm(total=len(paths), desc="processing images") as pbar:
         for path, label in zip(paths, labels):
             # remember this reads BGR

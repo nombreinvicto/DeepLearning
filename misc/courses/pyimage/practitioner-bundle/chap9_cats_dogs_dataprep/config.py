@@ -1,7 +1,7 @@
 # path to train images
 # this folder contains 25K cats and dogs images
 images_path = r"C:\GoogleDrive\GitHub\image_datasets\kaggle_dogs_vs_cats\train"
-dataset_mean_path = r"\output\kaggle_cats_dogs.json"
+dataset_mean_path = r".\output\kaggle_cats_dogs.json"
 num_classes = 2
 num_val_images = 2500
 num_test_images = 2500
