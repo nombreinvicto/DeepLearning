@@ -22,18 +22,22 @@ class CropPreprocessor:
         # grab the dims of the bigger image
         h, w = image.shape[:2]
         coords_set = [
+            # this is for the upper left crop
             Coords(startx=0,
                    starty=0,
                    endx=self.width,
                    endy=self.height),
+            # this is for the upper right crops
             Coords(startx=w - self.width,
                    starty=0,
                    endx=w,
                    endy=self.height),
+            # this is for the bottom left crop
             Coords(startx=0,
                    starty=h - self.height,
                    endx=self.width,
                    endy=h),
+            # this is for the bottom right crop
             Coords(startx=w - self.width,
                    starty=h - self.height,
                    endx=w,

@@ -64,7 +64,7 @@ class HDF5DatasetGenerator:
                                                         batch_size=self.batch_size))
 
                 # finally yield tuples of images and labels
-                yield (images, labels)
+                yield images, labels
 
             # increment the epoch after all batches processed
             epochs += 1
