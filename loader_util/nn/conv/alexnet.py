@@ -49,17 +49,20 @@ class AlexNet():
         model.add(Dropout(0.25))
         # %% ##################################################################
         # Block #3: CONV => RELU => CONV => RELU => CONV => RELU
-        model.add(Conv2D(384, (3, 3), padding="same",
+        model.add(Conv2D(384, (3, 3),
+                         padding="same",
                          kernel_regularizer=l2(reg)))
         model.add(Activation("relu"))
         model.add(BatchNormalization(axis=chan_dim))
 
-        model.add(Conv2D(384, (3, 3), padding="same",
+        model.add(Conv2D(384, (3, 3),
+                         padding="same",
                          kernel_regularizer=l2(reg)))
         model.add(Activation("relu"))
         model.add(BatchNormalization(axis=chan_dim))
 
-        model.add(Conv2D(256, (3, 3), padding="same",
+        model.add(Conv2D(256, (3, 3),
+                         padding="same",
                          kernel_regularizer=l2(reg)))
         model.add(Activation("relu"))
         model.add(BatchNormalization(axis=chan_dim))
@@ -72,6 +75,7 @@ class AlexNet():
         model.add(Activation("relu"))
         model.add(BatchNormalization())
         model.add(Dropout(0.5))
+
         # Block #5: second set of FC => RELU layers
         model.add(Dense(4096, kernel_regularizer=l2(reg)))
         model.add(Activation("relu"))

@@ -8,5 +8,5 @@ class ImageToArrayPreprocessor:
         self.dataFormat = dataFormat
 
     def preprocess(self, image):
-        # apply keras utility that correctly rearranged dimensions of image
+        # apply keras utility that correctly rearranges dimensions of image
         return img_to_array(image, data_format=self.dataFormat)

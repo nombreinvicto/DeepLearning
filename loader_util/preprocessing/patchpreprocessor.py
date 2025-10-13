@@ -7,6 +7,7 @@ class PatchPreprocessor:
         self.height = height
 
     def preprocess(self, image):
+        # return the single patch
         return extract_patches_2d(image,
                                   patch_size=(self.height, self.width),
                                   max_patches=1)[0]
