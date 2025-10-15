@@ -10,7 +10,7 @@ class HDF5DatasetGenerator:
     def __init__(self,
                  dbpath,
                  batch_size,  # size of batch to yield
-                 preprocessors: Sequence[SimplePreprocessor] = None,
+                 preprocessors: Sequence = None,
                  aug: ImageDataGenerator = None,
                  binarize=True,  # whether to OHE the ordinal labels
                  features_name="features",

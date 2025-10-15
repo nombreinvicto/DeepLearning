@@ -17,6 +17,8 @@ def rankn_accuracy(preds: np.ndarray,
         "dimension less than or equal to rank number"
 
     for prob_array, ground_truth in zip(preds, labels):
+        # argsort send the index of the smallest element first
+        # using reversed slicing to reverse that
         prob_array_indices = np.argsort(prob_array)[::-1]
 
         if ground_truth in prob_array_indices[:rank]:
